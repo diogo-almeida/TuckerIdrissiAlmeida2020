@@ -1,0 +1,25 @@
+{
+    "id": "AEDA99D0",
+    "path": "~/Dropbox/JML-Revision/AnalysisScripts/00-ReproduceAnalyses-Tucker_et_al_2020.R",
+    "project_path": "00-ReproduceAnalyses-Tucker_et_al_2020.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1609171413290.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "cursorPosition": "34,39",
+        "scrollLine": "25",
+        "docOutlineVisible": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1609354455,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1609354455385,
+    "read_only": false,
+    "read_only_alternatives": []
+}
