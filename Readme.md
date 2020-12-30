@@ -1,3 +1,7 @@
+<!-- badges: start -->
+[![Launch Rstudio Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/diogo-almeida/TuckerIdrissiAlmeida2020/master?urlpath=rstudio)
+<!-- badges: end -->
+
 # Reproducible analysis for Tucker, Idrissi & Almeida (2020). Attraction effects for verbal gender and number are similar but not identical: self-paced reading evidence from Modern Standard Arabic. Frontiers in Psychology, Language Sciences. doi: 10.3389/fpsyg.2020.586464
 
 ## Running the scripts

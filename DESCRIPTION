@@ -1,0 +1,35 @@
+Type: Compendium
+Package: TuckerIdrissiAlmeida2020
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.1
+Authors@R: 
+    person(given = "First",
+           family = "Last",
+           role = c("aut", "cre"),
+           email = "first.last@example.com")
+Description: Reproducibility package for the research
+    reported in Tucker, Idrissi, & Almeida (2020).Attraction effects for
+    verbal gender and number are similar but not identical: self-paced
+    reading evidence from Modern Standard Arabic.  Frontiers in
+    Psychology, Language Sciences.  doi: 10.3389/fpsyg.2020.586464
+License: What license it uses
+Depends: 
+    bootES,
+    fs,
+    here,
+    holepunch,
+    lubridate,
+    metafor,
+    pander,
+    pins,
+    ragg,
+    readr,
+    sessioninfo,
+    stargazer,
+    tibble,
+    tidyverse,
+    viridis
+Remotes: 
+    karthik/holepunch
+Encoding: UTF-8
+LazyData: true
