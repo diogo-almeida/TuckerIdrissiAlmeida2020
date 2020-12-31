@@ -30,8 +30,8 @@ meta.analysis.rdata.files <- c("Experiment1-DataForMetaAnalysis.RData",
                                "Tucker2015-DataForMetaAnalysis.RData")
 
 ## Check if files exist locally, otherwise download them from figshare ---------
-if (all(file_exists(here(this_exp, meta.analysis.rdata.files)))) {
-  lapply(here(this_exp, meta.analysis.rdata.files), load, envir = .GlobalEnv)
+if (all(file_exists(path(this_exp, meta.analysis.rdata.files)))) {
+  lapply(path(this_exp, meta.analysis.rdata.files), load, envir = .GlobalEnv)
 } else {
   meta.datafile.figshare <- "https://ndownloader.figshare.com/files/25894410"
   pin(meta.datafile.figshare, name = "MetaAnalysisDatasets-small.zip")
@@ -256,7 +256,7 @@ num.exp.labels.sg <- exp.plotlabels[exp.labels %in% num.attr.sg.V.u$slab]
 num.exp.labels.pl <- exp.plotlabels[exp.labels %in% num.attr.pl.V.u$slab]
 
 ## Attraction Number Singular - Ungrammatical + Grammatical PDF plot -----------
-pdf(file = here(figs.dir, "Attraction-Num-Sg.pdf"),
+pdf(file = path(figs.dir, "Attraction-Num-Sg.pdf"),
     width = spr.rt.width, height = spr.rt.height)
 par(mar = c(4, 0, 0, 1.5))
 par(mfrow = c(2, 3))
@@ -344,7 +344,7 @@ plotdigits <- 0L
 
 
 ## Attraction Number Plural - Ungrammatical + Grammatical PDF plots ------------
-pdf(file = here(figs.dir, "Attraction-Num-Pl.pdf"),
+pdf(file = path(figs.dir, "Attraction-Num-Pl.pdf"),
     width = spr.rt.width, height = spr.rt.height)
 par(mar = c(4, 0, 0, 1.5))
 par(mfrow = c(2, 3))
@@ -507,7 +507,7 @@ gend.exp.labels.masc <- exp.plotlabels[exp.labels %in% gend.attr.masc.V.u$slab]
 gend.exp.labels.fem <- exp.plotlabels[exp.labels %in% gend.attr.fem.V.u$slab]
 
 ## Attraction Gender Masc - Ungrammatical + Grammatical PDF plot ---------------
-pdf(file = here(figs.dir, "Attraction-Gen-Masc.pdf"),
+pdf(file = path(figs.dir, "Attraction-Gen-Masc.pdf"),
     width = spr.rt.width, height = spr.rt.height)
 par(mar = c(4, 0, 0, 1.5))
 par(mfrow = c(2, 3))
@@ -591,7 +591,7 @@ plotcex.axis.lab <- 1
 plotdigits <- 0L
 
 # Attraction Gender Feminine - Ungrammatical + Grammatical PDF plot
-pdf(file = here(figs.dir, "Attraction-Gen-Fem.pdf"),
+pdf(file = path(figs.dir, "Attraction-Gen-Fem.pdf"),
     width = spr.rt.width, height = spr.rt.height)
 par(mar = c(4, 0, 0, 1.5))
 par(mfrow = c(2, 3))
