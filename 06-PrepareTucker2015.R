@@ -85,7 +85,7 @@ tucker2015.original <- pin_get("tucker2015_data") %>%
 
 ## Saving a copy of the original dataset on the data folder --------------------
 tucker2015.original %>%
-  readr::write_csv(here(data.dir, "tucker2015.csv"))
+  readr::write_csv(path(data.dir, "tucker2015.csv"))
 
 ## Set parameters for data analysis --------------------------------------------
 wins.cutoff  <- .01   # 1% cutoff
@@ -167,7 +167,6 @@ tucker2015.data.gdave <- tucker2015.data.saves %>%
            remove = FALSE) %>%
   ungroup() %>%
   mutate(SubjPhi = rep("Num", time = length(Match))) %>%
-  mutate(across(where(is.character), factor)) %>%
   mutate(Experiment = rep("tucker2015", times = length(SubjPhi))) %>%
   droplevels()
 
@@ -203,12 +202,12 @@ plot.manuscript.all <- tucker2015.grand.average.plot +
 
 ## Save the plots --------------------------------------------------------------
 ggsave(plot.manuscript.all,
-       file = here(figs.dir, "tucker2015.pdf"),
+       file = path(figs.dir, "tucker2015.pdf"),
        width = spr.rt.width, height = spr.rt.height)
 ggsave(plot.manuscript.all,
-       file = here(figs.dir, "tucker2015.eps"), 
+       file = path(figs.dir, "tucker2015.eps"), 
        width = spr.rt.width, height = spr.rt.height, device = cairo_ps)
-agg_png(filename = here(figs.dir, "tucker2015.png"),
+agg_png(filename = path(figs.dir, "tucker2015.png"),
         width = spr.rt.width, height = spr.rt.height, units = "in",
         res = 216)
 print(plot.manuscript.all)
@@ -285,7 +284,7 @@ tucker2015.effects <- bind_rows(tucker2015.attr.ungram, tucker2015.attr.gram,
 ## LaTeX tables for Effects and their Bootstrapped 95% CIs ---------------------
 tucker2015.effects %>%
   filter(Region %in% rois) %>%
-  mutate(across(where(is.factor), as.character)) %>%
+  mutate_if(is.factor, as.character) %>%
   group_by(SubExperiment) %>%
   mutate(SE = sqrt(VarEffect),
          Mean = paste0(round(MeanEffect, 0), " (", round(CI.min, 0), ", ", round(CI.max, 0), ")")) %>%
@@ -294,18 +293,18 @@ tucker2015.effects %>%
   droplevels() %>%
   pivot_wider(names_from = Region, values_from = Mean) %>%
   stargazer::stargazer(type = "latex", summary = FALSE, rownames = FALSE,
-                       out=here(tbls.dir, "tucker2015-cis.tex"))
+                       out=path(tbls.dir, "tucker2015-cis.tex"))
 
 
 ## Save the relevant data structures for future manipulation -------------------
 save(tucker2015.data.ok, tucker2015.data.saves, tucker2015.data.gdave, 
      tucker2015.effects,
-     file = here(meta.dir, "Tucker2015-DataForMetaAnalysis.RData"))
+     file = path(meta.dir, "Tucker2015-DataForMetaAnalysis.RData"))
 
 ## Save the session information to compare with original if needed -------------
 session_info_name <- paste0("tucker2020_", lubridate::today(), ".txt")
 session_information <- session_info()
-sink(file = here(session_info_name))
+sink(file = path(session_info_name))
 pander(session_information)
 sink()
 
