@@ -10,13 +10,15 @@
       * **collate**: en_US.UTF-8
       * **ctype**: en_US.UTF-8
       * **tz**: America/Sao_Paulo
-      * **date**: 2020-12-30
+      * **date**: 2020-12-31
 
   * **packages**:
 
     ---------------------------------------------------------------
          &nbsp;          package     ondiskversion   loadedversion
     ----------------- ------------- --------------- ---------------
+       **askpass**       askpass          1.1             1.1
+
      **assertthat**    assertthat        0.2.1           0.2.1
 
       **backports**     backports       1.1.10          1.1.10
@@ -31,11 +33,15 @@
 
      **cellranger**    cellranger        1.1.0           1.1.0
 
-         **cli**           cli           2.0.2           2.0.2
+         **cli**           cli           2.2.0           2.2.0
+
+       **cliapp**        cliapp          0.1.1           0.1.1
 
      **colorspace**    colorspace        1.4.1           1.4-1
 
        **crayon**        crayon          1.3.4           1.3.4
+
+     **credentials**   credentials       1.3.0           1.3.0
 
         **curl**          curl            4.3             4.3
 
@@ -43,7 +49,9 @@
 
        **dbplyr**        dbplyr          1.4.4           1.4.4
 
-       **digest**        digest         0.6.25          0.6.25
+        **desc**          desc           1.2.0           1.2.0
+
+       **digest**        digest         0.6.27          0.6.27
 
         **dplyr**         dplyr          1.0.2           1.0.2
 
@@ -59,9 +67,15 @@
 
          **fs**            fs            1.5.0           1.5.0
 
-      **generics**      generics         0.0.2           0.0.2
+      **generics**      generics         0.1.0           0.1.0
+
+        **gert**          gert           1.0.2           1.0.2
 
        **ggplot2**       ggplot2         3.3.2           3.3.2
+
+         **gh**            gh            1.2.0           1.2.0
+
+        **git2r**         git2r         0.27.1          0.27.1
 
         **glue**          glue           1.4.2           1.4.2
 
@@ -75,9 +89,13 @@
 
          **hms**           hms           0.5.3           0.5.3
 
+      **holepunch**     holepunch     0.1.28.9000     0.1.28.9000
+
         **httr**          httr           1.4.2           1.4.2
 
-      **jsonlite**      jsonlite         1.7.1           1.7.1
+         **ini**           ini           0.3.1           0.3.1
+
+      **jsonlite**      jsonlite         1.7.2           1.7.2
 
       **labeling**      labeling          0.3             0.3
 
@@ -85,19 +103,13 @@
 
       **lifecycle**     lifecycle        0.2.0           0.2.0
 
-        **lme4**          lme4          1.1.23          1.1-23
+      **lubridate**     lubridate       1.7.9.2         1.7.9.2
 
-      **lubridate**     lubridate        1.7.9           1.7.9
-
-      **magrittr**      magrittr          1.5             1.5
-
-        **MASS**          MASS          7.3.53          7.3-53
+      **magrittr**      magrittr         2.0.1           2.0.1
 
        **Matrix**        Matrix         1.2.18          1.2-18
 
        **metafor**       metafor         2.4.0           2.4-0
-
-        **minqa**         minqa          1.2.4           1.2.4
 
        **modelr**        modelr          0.1.8           0.1.8
 
@@ -105,7 +117,7 @@
 
         **nlme**          nlme          3.1.149         3.1-149
 
-       **nloptr**        nloptr         1.2.2.2         1.2.2.2
+       **openssl**       openssl         1.4.3           1.4.3
 
        **pander**        pander          0.6.3           0.6.3
 
@@ -115,9 +127,13 @@
 
       **pkgconfig**     pkgconfig        2.0.3           2.0.3
 
+     **prettyunits**   prettyunits       1.1.1           1.1.1
+
+      **progress**      progress         1.2.2           1.2.2
+
         **purrr**         purrr          0.3.4           0.3.4
 
-         **R6**            R6            2.4.1           2.4.1
+         **R6**            R6            2.5.0           2.5.0
 
         **ragg**          ragg           0.4.0           0.4.0
 
@@ -129,27 +145,31 @@
 
        **readxl**        readxl          1.3.1           1.3.1
 
+        **renv**          renv          0.12.3          0.12.3
+
        **reprex**        reprex          0.3.0           0.3.0
 
-        **rlang**         rlang          0.4.7           0.4.7
+        **rlang**         rlang         0.4.10          0.4.10
 
       **rprojroot**     rprojroot        2.0.2           2.0.2
 
-     **rstudioapi**    rstudioapi        0.11            0.11
+     **rstudioapi**    rstudioapi        0.13            0.13
 
         **rvest**         rvest          0.3.6           0.3.6
 
        **scales**        scales          1.1.1           1.1.1
 
+       **selectr**       selectr         0.4.2           0.4-2
+
      **sessioninfo**   sessioninfo       1.1.1           1.1.1
 
       **stargazer**     stargazer        5.2.2           5.2.2
 
-       **statmod**       statmod        1.4.34          1.4.34
-
        **stringi**       stringi         1.5.3           1.5.3
 
        **stringr**       stringr         1.4.0           1.4.0
+
+         **sys**           sys            3.4             3.4
 
      **systemfonts**   systemfonts       0.3.2           0.3.2
 
@@ -163,9 +183,11 @@
 
       **tidyverse**     tidyverse        1.3.0           1.3.0
 
+       **usethis**       usethis         2.0.0           2.0.0
+
         **utf8**          utf8           1.1.4           1.1.4
 
-        **vctrs**         vctrs          0.3.4           0.3.4
+        **vctrs**         vctrs          0.3.6           0.3.6
 
        **viridis**       viridis         0.5.1           0.5.1
 
@@ -176,8 +198,6 @@
         **xml2**          xml2           1.3.2           1.3.2
 
         **yaml**          yaml           2.2.1           2.2.1
-
-         **zip**           zip           2.1.1           2.1.1
     ---------------------------------------------------------------
 
     Table: Table continues below
@@ -186,6 +206,8 @@
     ----------------------------------------------------------------------------------------------
          &nbsp;                                           path
     ----------------- ----------------------------------------------------------------------------
+       **askpass**       /Library/Frameworks/R.framework/Versions/4.0/Resources/library/askpass
+
      **assertthat**    /Library/Frameworks/R.framework/Versions/4.0/Resources/library/assertthat
 
       **backports**     /Library/Frameworks/R.framework/Versions/4.0/Resources/library/backports
@@ -202,15 +224,21 @@
 
          **cli**           /Library/Frameworks/R.framework/Versions/4.0/Resources/library/cli
 
+       **cliapp**        /Library/Frameworks/R.framework/Versions/4.0/Resources/library/cliapp
+
      **colorspace**    /Library/Frameworks/R.framework/Versions/4.0/Resources/library/colorspace
 
        **crayon**        /Library/Frameworks/R.framework/Versions/4.0/Resources/library/crayon
+
+     **credentials**   /Library/Frameworks/R.framework/Versions/4.0/Resources/library/credentials
 
         **curl**          /Library/Frameworks/R.framework/Versions/4.0/Resources/library/curl
 
          **DBI**           /Library/Frameworks/R.framework/Versions/4.0/Resources/library/DBI
 
        **dbplyr**        /Library/Frameworks/R.framework/Versions/4.0/Resources/library/dbplyr
+
+        **desc**          /Library/Frameworks/R.framework/Versions/4.0/Resources/library/desc
 
        **digest**        /Library/Frameworks/R.framework/Versions/4.0/Resources/library/digest
 
@@ -230,7 +258,13 @@
 
       **generics**      /Library/Frameworks/R.framework/Versions/4.0/Resources/library/generics
 
+        **gert**          /Library/Frameworks/R.framework/Versions/4.0/Resources/library/gert
+
        **ggplot2**       /Library/Frameworks/R.framework/Versions/4.0/Resources/library/ggplot2
+
+         **gh**            /Library/Frameworks/R.framework/Versions/4.0/Resources/library/gh
+
+        **git2r**         /Library/Frameworks/R.framework/Versions/4.0/Resources/library/git2r
 
         **glue**          /Library/Frameworks/R.framework/Versions/4.0/Resources/library/glue
 
@@ -244,7 +278,11 @@
 
          **hms**           /Library/Frameworks/R.framework/Versions/4.0/Resources/library/hms
 
+      **holepunch**     /Library/Frameworks/R.framework/Versions/4.0/Resources/library/holepunch
+
         **httr**          /Library/Frameworks/R.framework/Versions/4.0/Resources/library/httr
+
+         **ini**           /Library/Frameworks/R.framework/Versions/4.0/Resources/library/ini
 
       **jsonlite**      /Library/Frameworks/R.framework/Versions/4.0/Resources/library/jsonlite
 
@@ -254,19 +292,13 @@
 
       **lifecycle**     /Library/Frameworks/R.framework/Versions/4.0/Resources/library/lifecycle
 
-        **lme4**          /Library/Frameworks/R.framework/Versions/4.0/Resources/library/lme4
-
       **lubridate**     /Library/Frameworks/R.framework/Versions/4.0/Resources/library/lubridate
 
       **magrittr**      /Library/Frameworks/R.framework/Versions/4.0/Resources/library/magrittr
 
-        **MASS**          /Library/Frameworks/R.framework/Versions/4.0/Resources/library/MASS
-
        **Matrix**        /Library/Frameworks/R.framework/Versions/4.0/Resources/library/Matrix
 
        **metafor**       /Library/Frameworks/R.framework/Versions/4.0/Resources/library/metafor
-
-        **minqa**         /Library/Frameworks/R.framework/Versions/4.0/Resources/library/minqa
 
        **modelr**        /Library/Frameworks/R.framework/Versions/4.0/Resources/library/modelr
 
@@ -274,7 +306,7 @@
 
         **nlme**          /Library/Frameworks/R.framework/Versions/4.0/Resources/library/nlme
 
-       **nloptr**        /Library/Frameworks/R.framework/Versions/4.0/Resources/library/nloptr
+       **openssl**       /Library/Frameworks/R.framework/Versions/4.0/Resources/library/openssl
 
        **pander**        /Library/Frameworks/R.framework/Versions/4.0/Resources/library/pander
 
@@ -283,6 +315,10 @@
         **pins**          /Library/Frameworks/R.framework/Versions/4.0/Resources/library/pins
 
       **pkgconfig**     /Library/Frameworks/R.framework/Versions/4.0/Resources/library/pkgconfig
+
+     **prettyunits**   /Library/Frameworks/R.framework/Versions/4.0/Resources/library/prettyunits
+
+      **progress**      /Library/Frameworks/R.framework/Versions/4.0/Resources/library/progress
 
         **purrr**         /Library/Frameworks/R.framework/Versions/4.0/Resources/library/purrr
 
@@ -298,6 +334,8 @@
 
        **readxl**        /Library/Frameworks/R.framework/Versions/4.0/Resources/library/readxl
 
+        **renv**          /Library/Frameworks/R.framework/Versions/4.0/Resources/library/renv
+
        **reprex**        /Library/Frameworks/R.framework/Versions/4.0/Resources/library/reprex
 
         **rlang**         /Library/Frameworks/R.framework/Versions/4.0/Resources/library/rlang
@@ -310,15 +348,17 @@
 
        **scales**        /Library/Frameworks/R.framework/Versions/4.0/Resources/library/scales
 
+       **selectr**       /Library/Frameworks/R.framework/Versions/4.0/Resources/library/selectr
+
      **sessioninfo**   /Library/Frameworks/R.framework/Versions/4.0/Resources/library/sessioninfo
 
       **stargazer**     /Library/Frameworks/R.framework/Versions/4.0/Resources/library/stargazer
 
-       **statmod**       /Library/Frameworks/R.framework/Versions/4.0/Resources/library/statmod
-
        **stringi**       /Library/Frameworks/R.framework/Versions/4.0/Resources/library/stringi
 
        **stringr**       /Library/Frameworks/R.framework/Versions/4.0/Resources/library/stringr
+
+         **sys**           /Library/Frameworks/R.framework/Versions/4.0/Resources/library/sys
 
      **systemfonts**   /Library/Frameworks/R.framework/Versions/4.0/Resources/library/systemfonts
 
@@ -331,6 +371,8 @@
      **tidyselect**    /Library/Frameworks/R.framework/Versions/4.0/Resources/library/tidyselect
 
       **tidyverse**     /Library/Frameworks/R.framework/Versions/4.0/Resources/library/tidyverse
+
+       **usethis**       /Library/Frameworks/R.framework/Versions/4.0/Resources/library/usethis
 
         **utf8**          /Library/Frameworks/R.framework/Versions/4.0/Resources/library/utf8
 
@@ -345,8 +387,6 @@
         **xml2**          /Library/Frameworks/R.framework/Versions/4.0/Resources/library/xml2
 
         **yaml**          /Library/Frameworks/R.framework/Versions/4.0/Resources/library/yaml
-
-         **zip**           /Library/Frameworks/R.framework/Versions/4.0/Resources/library/zip
     ----------------------------------------------------------------------------------------------
 
     Table: Table continues below
@@ -355,6 +395,8 @@
     ----------------------------------------------------------------------------------------------
          &nbsp;                                        loadedpath
     ----------------- ----------------------------------------------------------------------------
+       **askpass**       /Library/Frameworks/R.framework/Versions/4.0/Resources/library/askpass
+
      **assertthat**    /Library/Frameworks/R.framework/Versions/4.0/Resources/library/assertthat
 
       **backports**     /Library/Frameworks/R.framework/Versions/4.0/Resources/library/backports
@@ -371,15 +413,21 @@
 
          **cli**           /Library/Frameworks/R.framework/Versions/4.0/Resources/library/cli
 
+       **cliapp**        /Library/Frameworks/R.framework/Versions/4.0/Resources/library/cliapp
+
      **colorspace**    /Library/Frameworks/R.framework/Versions/4.0/Resources/library/colorspace
 
        **crayon**        /Library/Frameworks/R.framework/Versions/4.0/Resources/library/crayon
+
+     **credentials**   /Library/Frameworks/R.framework/Versions/4.0/Resources/library/credentials
 
         **curl**          /Library/Frameworks/R.framework/Versions/4.0/Resources/library/curl
 
          **DBI**           /Library/Frameworks/R.framework/Versions/4.0/Resources/library/DBI
 
        **dbplyr**        /Library/Frameworks/R.framework/Versions/4.0/Resources/library/dbplyr
+
+        **desc**          /Library/Frameworks/R.framework/Versions/4.0/Resources/library/desc
 
        **digest**        /Library/Frameworks/R.framework/Versions/4.0/Resources/library/digest
 
@@ -399,7 +447,13 @@
 
       **generics**      /Library/Frameworks/R.framework/Versions/4.0/Resources/library/generics
 
+        **gert**          /Library/Frameworks/R.framework/Versions/4.0/Resources/library/gert
+
        **ggplot2**       /Library/Frameworks/R.framework/Versions/4.0/Resources/library/ggplot2
+
+         **gh**            /Library/Frameworks/R.framework/Versions/4.0/Resources/library/gh
+
+        **git2r**         /Library/Frameworks/R.framework/Versions/4.0/Resources/library/git2r
 
         **glue**          /Library/Frameworks/R.framework/Versions/4.0/Resources/library/glue
 
@@ -413,7 +467,11 @@
 
          **hms**           /Library/Frameworks/R.framework/Versions/4.0/Resources/library/hms
 
+      **holepunch**     /Library/Frameworks/R.framework/Versions/4.0/Resources/library/holepunch
+
         **httr**          /Library/Frameworks/R.framework/Versions/4.0/Resources/library/httr
+
+         **ini**           /Library/Frameworks/R.framework/Versions/4.0/Resources/library/ini
 
       **jsonlite**      /Library/Frameworks/R.framework/Versions/4.0/Resources/library/jsonlite
 
@@ -423,19 +481,13 @@
 
       **lifecycle**     /Library/Frameworks/R.framework/Versions/4.0/Resources/library/lifecycle
 
-        **lme4**          /Library/Frameworks/R.framework/Versions/4.0/Resources/library/lme4
-
       **lubridate**     /Library/Frameworks/R.framework/Versions/4.0/Resources/library/lubridate
 
       **magrittr**      /Library/Frameworks/R.framework/Versions/4.0/Resources/library/magrittr
 
-        **MASS**          /Library/Frameworks/R.framework/Versions/4.0/Resources/library/MASS
-
        **Matrix**        /Library/Frameworks/R.framework/Versions/4.0/Resources/library/Matrix
 
        **metafor**       /Library/Frameworks/R.framework/Versions/4.0/Resources/library/metafor
-
-        **minqa**         /Library/Frameworks/R.framework/Versions/4.0/Resources/library/minqa
 
        **modelr**        /Library/Frameworks/R.framework/Versions/4.0/Resources/library/modelr
 
@@ -443,7 +495,7 @@
 
         **nlme**          /Library/Frameworks/R.framework/Versions/4.0/Resources/library/nlme
 
-       **nloptr**        /Library/Frameworks/R.framework/Versions/4.0/Resources/library/nloptr
+       **openssl**       /Library/Frameworks/R.framework/Versions/4.0/Resources/library/openssl
 
        **pander**        /Library/Frameworks/R.framework/Versions/4.0/Resources/library/pander
 
@@ -452,6 +504,10 @@
         **pins**          /Library/Frameworks/R.framework/Versions/4.0/Resources/library/pins
 
       **pkgconfig**     /Library/Frameworks/R.framework/Versions/4.0/Resources/library/pkgconfig
+
+     **prettyunits**   /Library/Frameworks/R.framework/Versions/4.0/Resources/library/prettyunits
+
+      **progress**      /Library/Frameworks/R.framework/Versions/4.0/Resources/library/progress
 
         **purrr**         /Library/Frameworks/R.framework/Versions/4.0/Resources/library/purrr
 
@@ -467,6 +523,8 @@
 
        **readxl**        /Library/Frameworks/R.framework/Versions/4.0/Resources/library/readxl
 
+        **renv**          /Library/Frameworks/R.framework/Versions/4.0/Resources/library/renv
+
        **reprex**        /Library/Frameworks/R.framework/Versions/4.0/Resources/library/reprex
 
         **rlang**         /Library/Frameworks/R.framework/Versions/4.0/Resources/library/rlang
@@ -479,15 +537,17 @@
 
        **scales**        /Library/Frameworks/R.framework/Versions/4.0/Resources/library/scales
 
+       **selectr**       /Library/Frameworks/R.framework/Versions/4.0/Resources/library/selectr
+
      **sessioninfo**   /Library/Frameworks/R.framework/Versions/4.0/Resources/library/sessioninfo
 
       **stargazer**     /Library/Frameworks/R.framework/Versions/4.0/Resources/library/stargazer
 
-       **statmod**       /Library/Frameworks/R.framework/Versions/4.0/Resources/library/statmod
-
        **stringi**       /Library/Frameworks/R.framework/Versions/4.0/Resources/library/stringi
 
        **stringr**       /Library/Frameworks/R.framework/Versions/4.0/Resources/library/stringr
+
+         **sys**           /Library/Frameworks/R.framework/Versions/4.0/Resources/library/sys
 
      **systemfonts**   /Library/Frameworks/R.framework/Versions/4.0/Resources/library/systemfonts
 
@@ -500,6 +560,8 @@
      **tidyselect**    /Library/Frameworks/R.framework/Versions/4.0/Resources/library/tidyselect
 
       **tidyverse**     /Library/Frameworks/R.framework/Versions/4.0/Resources/library/tidyverse
+
+       **usethis**       /Library/Frameworks/R.framework/Versions/4.0/Resources/library/usethis
 
         **utf8**          /Library/Frameworks/R.framework/Versions/4.0/Resources/library/utf8
 
@@ -514,178 +576,386 @@
         **xml2**          /Library/Frameworks/R.framework/Versions/4.0/Resources/library/xml2
 
         **yaml**          /Library/Frameworks/R.framework/Versions/4.0/Resources/library/yaml
-
-         **zip**           /Library/Frameworks/R.framework/Versions/4.0/Resources/library/zip
     ----------------------------------------------------------------------------------------------
 
     Table: Table continues below
 
 
-    ----------------------------------------------------------------------------
-         &nbsp;        attached   is_base      date          source       md5ok
-    ----------------- ---------- --------- ------------ ---------------- -------
-     **assertthat**     FALSE      FALSE    2019-03-21   CRAN (R 4.0.2)    NA
+    ---------------------------------------------------
+         &nbsp;        attached   is_base      date
+    ----------------- ---------- --------- ------------
+       **askpass**      FALSE      FALSE    2019-01-13
 
-      **backports**     FALSE      FALSE    2020-09-15   CRAN (R 4.0.2)    NA
+     **assertthat**     FALSE      FALSE    2019-03-21
 
-        **blob**        FALSE      FALSE    2020-01-20   CRAN (R 4.0.2)    NA
+      **backports**     FALSE      FALSE    2020-09-15
 
-        **boot**         TRUE      FALSE    2020-04-26   CRAN (R 4.0.3)    NA
+        **blob**        FALSE      FALSE    2020-01-20
 
-       **bootES**        TRUE      FALSE    2015-08-14   CRAN (R 4.0.2)    NA
+        **boot**         TRUE      FALSE    2020-04-26
 
-        **broom**       FALSE      FALSE    2020-10-02   CRAN (R 4.0.2)    NA
+       **bootES**        TRUE      FALSE    2015-08-14
 
-     **cellranger**     FALSE      FALSE    2016-07-27   CRAN (R 4.0.2)    NA
+        **broom**       FALSE      FALSE    2020-10-02
 
-         **cli**        FALSE      FALSE    2020-02-28   CRAN (R 4.0.2)    NA
+     **cellranger**     FALSE      FALSE    2016-07-27
 
-     **colorspace**     FALSE      FALSE    2019-03-18   CRAN (R 4.0.2)    NA
+         **cli**        FALSE      FALSE    2020-11-20
 
-       **crayon**       FALSE      FALSE    2017-09-16   CRAN (R 4.0.2)    NA
+       **cliapp**       FALSE      FALSE    2020-10-07
 
-        **curl**        FALSE      FALSE    2019-12-02   CRAN (R 4.0.1)    NA
+     **colorspace**     FALSE      FALSE    2019-03-18
 
-         **DBI**        FALSE      FALSE    2019-12-15   CRAN (R 4.0.2)    NA
+       **crayon**       FALSE      FALSE    2017-09-16
 
-       **dbplyr**       FALSE      FALSE    2020-05-27   CRAN (R 4.0.2)    NA
+     **credentials**    FALSE      FALSE    2020-07-21
 
-       **digest**       FALSE      FALSE    2020-02-23   CRAN (R 4.0.2)    NA
+        **curl**        FALSE      FALSE    2019-12-02
 
-        **dplyr**        TRUE      FALSE    2020-08-18   CRAN (R 4.0.2)    NA
+         **DBI**        FALSE      FALSE    2019-12-15
 
-      **ellipsis**      FALSE      FALSE    2020-05-15   CRAN (R 4.0.2)    NA
+       **dbplyr**       FALSE      FALSE    2020-05-27
 
-        **fansi**       FALSE      FALSE    2020-01-08   CRAN (R 4.0.2)    NA
+        **desc**        FALSE      FALSE    2018-05-01
 
-       **farver**       FALSE      FALSE    2020-01-16   CRAN (R 4.0.2)    NA
+       **digest**       FALSE      FALSE    2020-10-24
 
-      **filelock**      FALSE      FALSE    2018-10-05   CRAN (R 4.0.2)    NA
+        **dplyr**        TRUE      FALSE    2020-08-18
 
-       **forcats**       TRUE      FALSE    2020-03-01   CRAN (R 4.0.2)    NA
+      **ellipsis**      FALSE      FALSE    2020-05-15
 
-         **fs**          TRUE      FALSE    2020-07-31   CRAN (R 4.0.2)    NA
+        **fansi**       FALSE      FALSE    2020-01-08
 
-      **generics**      FALSE      FALSE    2018-11-29   CRAN (R 4.0.2)    NA
+       **farver**       FALSE      FALSE    2020-01-16
 
-       **ggplot2**       TRUE      FALSE    2020-06-19   CRAN (R 4.0.2)    NA
+      **filelock**      FALSE      FALSE    2018-10-05
 
-        **glue**        FALSE      FALSE    2020-08-27   CRAN (R 4.0.2)    NA
+       **forcats**       TRUE      FALSE    2020-03-01
 
-      **gridExtra**     FALSE      FALSE    2017-09-09   CRAN (R 4.0.2)    NA
+         **fs**          TRUE      FALSE    2020-07-31
 
-       **gtable**       FALSE      FALSE    2019-03-25   CRAN (R 4.0.2)    NA
+      **generics**      FALSE      FALSE    2020-10-31
 
-        **haven**       FALSE      FALSE    2020-06-01   CRAN (R 4.0.2)    NA
+        **gert**        FALSE      FALSE    2020-11-12
 
-        **here**         TRUE      FALSE    2020-12-13   CRAN (R 4.0.2)    NA
+       **ggplot2**       TRUE      FALSE    2020-06-19
 
-         **hms**        FALSE      FALSE    2020-01-08   CRAN (R 4.0.2)    NA
+         **gh**         FALSE      FALSE    2020-11-27
 
-        **httr**        FALSE      FALSE    2020-07-20   CRAN (R 4.0.2)    NA
+        **git2r**       FALSE      FALSE    2020-05-03
 
-      **jsonlite**      FALSE      FALSE    2020-09-07   CRAN (R 4.0.2)    NA
+        **glue**        FALSE      FALSE    2020-08-27
 
-      **labeling**      FALSE      FALSE    2014-08-23   CRAN (R 4.0.2)    NA
+      **gridExtra**     FALSE      FALSE    2017-09-09
 
-       **lattice**      FALSE      FALSE    2020-04-02   CRAN (R 4.0.3)    NA
+       **gtable**       FALSE      FALSE    2019-03-25
 
-      **lifecycle**     FALSE      FALSE    2020-03-06   CRAN (R 4.0.2)    NA
+        **haven**       FALSE      FALSE    2020-06-01
 
-        **lme4**        FALSE      FALSE    2020-04-07   CRAN (R 4.0.1)    NA
+        **here**         TRUE      FALSE    2020-12-13
 
-      **lubridate**      TRUE      FALSE    2020-06-08   CRAN (R 4.0.2)    NA
+         **hms**        FALSE      FALSE    2020-01-08
 
-      **magrittr**      FALSE      FALSE    2014-11-22   CRAN (R 4.0.2)    NA
+      **holepunch**      TRUE      FALSE    2020-12-30
 
-        **MASS**        FALSE      FALSE    2020-09-09   CRAN (R 4.0.3)    NA
+        **httr**        FALSE      FALSE    2020-07-20
 
-       **Matrix**        TRUE      FALSE    2019-11-27   CRAN (R 4.0.3)    NA
+         **ini**        FALSE      FALSE    2018-05-20
 
-       **metafor**       TRUE      FALSE    2020-03-19   CRAN (R 4.0.2)    NA
+      **jsonlite**      FALSE      FALSE    2020-12-09
 
-        **minqa**       FALSE      FALSE    2014-10-09   CRAN (R 4.0.2)    NA
+      **labeling**      FALSE      FALSE    2014-08-23
 
-       **modelr**       FALSE      FALSE    2020-05-19   CRAN (R 4.0.2)    NA
+       **lattice**      FALSE      FALSE    2020-04-02
 
-       **munsell**      FALSE      FALSE    2018-06-12   CRAN (R 4.0.2)    NA
+      **lifecycle**     FALSE      FALSE    2020-03-06
 
-        **nlme**        FALSE      FALSE    2020-08-23   CRAN (R 4.0.3)    NA
+      **lubridate**     FALSE      FALSE    2020-11-13
 
-       **nloptr**       FALSE      FALSE    2020-07-02   CRAN (R 4.0.2)    NA
+      **magrittr**      FALSE      FALSE    2020-11-17
 
-       **pander**        TRUE      FALSE    2018-11-06   CRAN (R 4.0.2)    NA
+       **Matrix**        TRUE      FALSE    2019-11-27
 
-       **pillar**       FALSE      FALSE    2020-07-10   CRAN (R 4.0.2)    NA
+       **metafor**       TRUE      FALSE    2020-03-19
 
-        **pins**         TRUE      FALSE    2020-10-30   CRAN (R 4.0.2)    NA
+       **modelr**       FALSE      FALSE    2020-05-19
 
-      **pkgconfig**     FALSE      FALSE    2019-09-22   CRAN (R 4.0.2)    NA
+       **munsell**      FALSE      FALSE    2018-06-12
 
-        **purrr**        TRUE      FALSE    2020-04-17   CRAN (R 4.0.2)    NA
+        **nlme**        FALSE      FALSE    2020-08-23
 
-         **R6**         FALSE      FALSE    2019-11-12   CRAN (R 4.0.2)    NA
+       **openssl**      FALSE      FALSE    2020-09-18
 
-        **ragg**         TRUE      FALSE    2020-10-05   CRAN (R 4.0.2)    NA
+       **pander**        TRUE      FALSE    2018-11-06
 
-      **rappdirs**      FALSE      FALSE    2016-03-28   CRAN (R 4.0.2)    NA
+       **pillar**       FALSE      FALSE    2020-07-10
 
-        **Rcpp**        FALSE      FALSE    2020-07-06   CRAN (R 4.0.2)    NA
+        **pins**         TRUE      FALSE    2020-10-30
 
-        **readr**        TRUE      FALSE    2018-12-21   CRAN (R 4.0.2)    NA
+      **pkgconfig**     FALSE      FALSE    2019-09-22
 
-       **readxl**       FALSE      FALSE    2019-03-13   CRAN (R 4.0.2)    NA
+     **prettyunits**    FALSE      FALSE    2020-01-24
 
-       **reprex**       FALSE      FALSE    2019-05-16   CRAN (R 4.0.2)    NA
+      **progress**      FALSE      FALSE    2019-05-16
 
-        **rlang**       FALSE      FALSE    2020-07-09   CRAN (R 4.0.2)    NA
+        **purrr**        TRUE      FALSE    2020-04-17
 
-      **rprojroot**     FALSE      FALSE    2020-11-15   CRAN (R 4.0.2)    NA
+         **R6**         FALSE      FALSE    2020-10-28
 
-     **rstudioapi**     FALSE      FALSE    2020-02-07   CRAN (R 4.0.2)    NA
+        **ragg**         TRUE      FALSE    2020-10-05
 
-        **rvest**       FALSE      FALSE    2020-07-25   CRAN (R 4.0.2)    NA
+      **rappdirs**      FALSE      FALSE    2016-03-28
 
-       **scales**       FALSE      FALSE    2020-05-11   CRAN (R 4.0.2)    NA
+        **Rcpp**        FALSE      FALSE    2020-07-06
 
-     **sessioninfo**     TRUE      FALSE    2018-11-05   CRAN (R 4.0.2)    NA
+        **readr**        TRUE      FALSE    2018-12-21
 
-      **stargazer**      TRUE      FALSE    2018-05-30   CRAN (R 4.0.2)    NA
+       **readxl**       FALSE      FALSE    2019-03-13
 
-       **statmod**      FALSE      FALSE    2020-02-17   CRAN (R 4.0.2)    NA
+        **renv**        FALSE      FALSE    2020-11-25
 
-       **stringi**      FALSE      FALSE    2020-09-09   CRAN (R 4.0.2)    NA
+       **reprex**       FALSE      FALSE    2019-05-16
 
-       **stringr**       TRUE      FALSE    2019-02-10   CRAN (R 4.0.2)    NA
+        **rlang**       FALSE      FALSE    2020-12-30
 
-     **systemfonts**    FALSE      FALSE    2020-09-29   CRAN (R 4.0.2)    NA
+      **rprojroot**     FALSE      FALSE    2020-11-15
 
-     **textshaping**    FALSE      FALSE    2020-11-13   CRAN (R 4.0.2)    NA
+     **rstudioapi**     FALSE      FALSE    2020-11-12
 
-       **tibble**        TRUE      FALSE    2020-07-10   CRAN (R 4.0.2)    NA
+        **rvest**       FALSE      FALSE    2020-07-25
 
-        **tidyr**        TRUE      FALSE    2020-08-27   CRAN (R 4.0.2)    NA
+       **scales**       FALSE      FALSE    2020-05-11
 
-     **tidyselect**     FALSE      FALSE    2020-05-11   CRAN (R 4.0.2)    NA
+       **selectr**      FALSE      FALSE    2019-11-20
 
-      **tidyverse**      TRUE      FALSE    2019-11-21   CRAN (R 4.0.2)    NA
+     **sessioninfo**     TRUE      FALSE    2018-11-05
 
-        **utf8**        FALSE      FALSE    2018-05-24   CRAN (R 4.0.2)    NA
+      **stargazer**      TRUE      FALSE    2018-05-30
 
-        **vctrs**       FALSE      FALSE    2020-08-29   CRAN (R 4.0.2)    NA
+       **stringi**      FALSE      FALSE    2020-09-09
 
-       **viridis**       TRUE      FALSE    2018-03-29   CRAN (R 4.0.2)    NA
+       **stringr**       TRUE      FALSE    2019-02-10
 
-     **viridisLite**     TRUE      FALSE    2018-02-01   CRAN (R 4.0.1)    NA
+         **sys**        FALSE      FALSE    2020-07-23
 
-        **withr**       FALSE      FALSE    2020-09-22   CRAN (R 4.0.2)    NA
+     **systemfonts**    FALSE      FALSE    2020-09-29
 
-        **xml2**        FALSE      FALSE    2020-04-23   CRAN (R 4.0.2)    NA
+     **textshaping**    FALSE      FALSE    2020-11-13
 
-        **yaml**        FALSE      FALSE    2020-02-01   CRAN (R 4.0.2)    NA
+       **tibble**        TRUE      FALSE    2020-07-10
 
-         **zip**        FALSE      FALSE    2020-08-27   CRAN (R 4.0.2)    NA
-    ----------------------------------------------------------------------------
+        **tidyr**        TRUE      FALSE    2020-08-27
+
+     **tidyselect**     FALSE      FALSE    2020-05-11
+
+      **tidyverse**      TRUE      FALSE    2019-11-21
+
+       **usethis**      FALSE      FALSE    2020-12-10
+
+        **utf8**        FALSE      FALSE    2018-05-24
+
+        **vctrs**       FALSE      FALSE    2020-12-17
+
+       **viridis**       TRUE      FALSE    2018-03-29
+
+     **viridisLite**     TRUE      FALSE    2018-02-01
+
+        **withr**       FALSE      FALSE    2020-09-22
+
+        **xml2**        FALSE      FALSE    2020-04-23
+
+        **yaml**        FALSE      FALSE    2020-02-01
+    ---------------------------------------------------
+
+    Table: Table continues below
+
+
+    -------------------------------------------------------
+         &nbsp;                  source              md5ok
+    ----------------- ----------------------------- -------
+       **askpass**           CRAN (R 4.0.2)           NA
+
+     **assertthat**          CRAN (R 4.0.2)           NA
+
+      **backports**          CRAN (R 4.0.2)           NA
+
+        **blob**             CRAN (R 4.0.2)           NA
+
+        **boot**             CRAN (R 4.0.3)           NA
+
+       **bootES**            CRAN (R 4.0.2)           NA
+
+        **broom**            CRAN (R 4.0.2)           NA
+
+     **cellranger**          CRAN (R 4.0.2)           NA
+
+         **cli**             CRAN (R 4.0.2)           NA
+
+       **cliapp**            CRAN (R 4.0.2)           NA
+
+     **colorspace**          CRAN (R 4.0.2)           NA
+
+       **crayon**            CRAN (R 4.0.2)           NA
+
+     **credentials**         CRAN (R 4.0.2)           NA
+
+        **curl**             CRAN (R 4.0.1)           NA
+
+         **DBI**             CRAN (R 4.0.2)           NA
+
+       **dbplyr**            CRAN (R 4.0.2)           NA
+
+        **desc**             CRAN (R 4.0.2)           NA
+
+       **digest**            CRAN (R 4.0.2)           NA
+
+        **dplyr**            CRAN (R 4.0.2)           NA
+
+      **ellipsis**           CRAN (R 4.0.2)           NA
+
+        **fansi**            CRAN (R 4.0.2)           NA
+
+       **farver**            CRAN (R 4.0.2)           NA
+
+      **filelock**           CRAN (R 4.0.2)           NA
+
+       **forcats**           CRAN (R 4.0.2)           NA
+
+         **fs**              CRAN (R 4.0.2)           NA
+
+      **generics**           CRAN (R 4.0.2)           NA
+
+        **gert**             CRAN (R 4.0.2)           NA
+
+       **ggplot2**           CRAN (R 4.0.2)           NA
+
+         **gh**              CRAN (R 4.0.2)           NA
+
+        **git2r**            CRAN (R 4.0.2)           NA
+
+        **glue**             CRAN (R 4.0.2)           NA
+
+      **gridExtra**          CRAN (R 4.0.2)           NA
+
+       **gtable**            CRAN (R 4.0.2)           NA
+
+        **haven**            CRAN (R 4.0.2)           NA
+
+        **here**             CRAN (R 4.0.2)           NA
+
+         **hms**             CRAN (R 4.0.2)           NA
+
+      **holepunch**              Github               NA
+                       (karthik/holepunch@c1c8e4a)
+
+        **httr**             CRAN (R 4.0.2)           NA
+
+         **ini**             CRAN (R 4.0.2)           NA
+
+      **jsonlite**           CRAN (R 4.0.2)           NA
+
+      **labeling**           CRAN (R 4.0.2)           NA
+
+       **lattice**           CRAN (R 4.0.3)           NA
+
+      **lifecycle**          CRAN (R 4.0.2)           NA
+
+      **lubridate**          CRAN (R 4.0.2)           NA
+
+      **magrittr**           CRAN (R 4.0.2)           NA
+
+       **Matrix**            CRAN (R 4.0.3)           NA
+
+       **metafor**           CRAN (R 4.0.2)           NA
+
+       **modelr**            CRAN (R 4.0.2)           NA
+
+       **munsell**           CRAN (R 4.0.2)           NA
+
+        **nlme**             CRAN (R 4.0.3)           NA
+
+       **openssl**           CRAN (R 4.0.2)           NA
+
+       **pander**            CRAN (R 4.0.2)           NA
+
+       **pillar**            CRAN (R 4.0.2)           NA
+
+        **pins**             CRAN (R 4.0.2)           NA
+
+      **pkgconfig**          CRAN (R 4.0.2)           NA
+
+     **prettyunits**         CRAN (R 4.0.2)           NA
+
+      **progress**           CRAN (R 4.0.2)           NA
+
+        **purrr**            CRAN (R 4.0.2)           NA
+
+         **R6**              CRAN (R 4.0.2)           NA
+
+        **ragg**             CRAN (R 4.0.2)           NA
+
+      **rappdirs**           CRAN (R 4.0.2)           NA
+
+        **Rcpp**             CRAN (R 4.0.2)           NA
+
+        **readr**            CRAN (R 4.0.2)           NA
+
+       **readxl**            CRAN (R 4.0.2)           NA
+
+        **renv**             CRAN (R 4.0.2)           NA
+
+       **reprex**            CRAN (R 4.0.2)           NA
+
+        **rlang**            CRAN (R 4.0.3)           NA
+
+      **rprojroot**          CRAN (R 4.0.2)           NA
+
+     **rstudioapi**          CRAN (R 4.0.2)           NA
+
+        **rvest**            CRAN (R 4.0.2)           NA
+
+       **scales**            CRAN (R 4.0.2)           NA
+
+       **selectr**           CRAN (R 4.0.2)           NA
+
+     **sessioninfo**         CRAN (R 4.0.2)           NA
+
+      **stargazer**          CRAN (R 4.0.2)           NA
+
+       **stringi**           CRAN (R 4.0.2)           NA
+
+       **stringr**           CRAN (R 4.0.2)           NA
+
+         **sys**             CRAN (R 4.0.2)           NA
+
+     **systemfonts**         CRAN (R 4.0.2)           NA
+
+     **textshaping**         CRAN (R 4.0.2)           NA
+
+       **tibble**            CRAN (R 4.0.2)           NA
+
+        **tidyr**            CRAN (R 4.0.2)           NA
+
+     **tidyselect**          CRAN (R 4.0.2)           NA
+
+      **tidyverse**          CRAN (R 4.0.2)           NA
+
+       **usethis**           CRAN (R 4.0.2)           NA
+
+        **utf8**             CRAN (R 4.0.2)           NA
+
+        **vctrs**            CRAN (R 4.0.2)           NA
+
+       **viridis**           CRAN (R 4.0.2)           NA
+
+     **viridisLite**         CRAN (R 4.0.1)           NA
+
+        **withr**            CRAN (R 4.0.2)           NA
+
+        **xml2**             CRAN (R 4.0.2)           NA
+
+        **yaml**             CRAN (R 4.0.2)           NA
+    -------------------------------------------------------
 
     Table: Table continues below
 
@@ -693,6 +963,8 @@
     ----------------------------------------------------------------------------------
          &nbsp;                                   library
     ----------------- ----------------------------------------------------------------
+       **askpass**     /Library/Frameworks/R.framework/Versions/4.0/Resources/library
+
      **assertthat**    /Library/Frameworks/R.framework/Versions/4.0/Resources/library
 
       **backports**    /Library/Frameworks/R.framework/Versions/4.0/Resources/library
@@ -709,15 +981,21 @@
 
          **cli**       /Library/Frameworks/R.framework/Versions/4.0/Resources/library
 
+       **cliapp**      /Library/Frameworks/R.framework/Versions/4.0/Resources/library
+
      **colorspace**    /Library/Frameworks/R.framework/Versions/4.0/Resources/library
 
        **crayon**      /Library/Frameworks/R.framework/Versions/4.0/Resources/library
+
+     **credentials**   /Library/Frameworks/R.framework/Versions/4.0/Resources/library
 
         **curl**       /Library/Frameworks/R.framework/Versions/4.0/Resources/library
 
          **DBI**       /Library/Frameworks/R.framework/Versions/4.0/Resources/library
 
        **dbplyr**      /Library/Frameworks/R.framework/Versions/4.0/Resources/library
+
+        **desc**       /Library/Frameworks/R.framework/Versions/4.0/Resources/library
 
        **digest**      /Library/Frameworks/R.framework/Versions/4.0/Resources/library
 
@@ -737,7 +1015,13 @@
 
       **generics**     /Library/Frameworks/R.framework/Versions/4.0/Resources/library
 
+        **gert**       /Library/Frameworks/R.framework/Versions/4.0/Resources/library
+
        **ggplot2**     /Library/Frameworks/R.framework/Versions/4.0/Resources/library
+
+         **gh**        /Library/Frameworks/R.framework/Versions/4.0/Resources/library
+
+        **git2r**      /Library/Frameworks/R.framework/Versions/4.0/Resources/library
 
         **glue**       /Library/Frameworks/R.framework/Versions/4.0/Resources/library
 
@@ -751,7 +1035,11 @@
 
          **hms**       /Library/Frameworks/R.framework/Versions/4.0/Resources/library
 
+      **holepunch**    /Library/Frameworks/R.framework/Versions/4.0/Resources/library
+
         **httr**       /Library/Frameworks/R.framework/Versions/4.0/Resources/library
+
+         **ini**       /Library/Frameworks/R.framework/Versions/4.0/Resources/library
 
       **jsonlite**     /Library/Frameworks/R.framework/Versions/4.0/Resources/library
 
@@ -761,19 +1049,13 @@
 
       **lifecycle**    /Library/Frameworks/R.framework/Versions/4.0/Resources/library
 
-        **lme4**       /Library/Frameworks/R.framework/Versions/4.0/Resources/library
-
       **lubridate**    /Library/Frameworks/R.framework/Versions/4.0/Resources/library
 
       **magrittr**     /Library/Frameworks/R.framework/Versions/4.0/Resources/library
 
-        **MASS**       /Library/Frameworks/R.framework/Versions/4.0/Resources/library
-
        **Matrix**      /Library/Frameworks/R.framework/Versions/4.0/Resources/library
 
        **metafor**     /Library/Frameworks/R.framework/Versions/4.0/Resources/library
-
-        **minqa**      /Library/Frameworks/R.framework/Versions/4.0/Resources/library
 
        **modelr**      /Library/Frameworks/R.framework/Versions/4.0/Resources/library
 
@@ -781,7 +1063,7 @@
 
         **nlme**       /Library/Frameworks/R.framework/Versions/4.0/Resources/library
 
-       **nloptr**      /Library/Frameworks/R.framework/Versions/4.0/Resources/library
+       **openssl**     /Library/Frameworks/R.framework/Versions/4.0/Resources/library
 
        **pander**      /Library/Frameworks/R.framework/Versions/4.0/Resources/library
 
@@ -790,6 +1072,10 @@
         **pins**       /Library/Frameworks/R.framework/Versions/4.0/Resources/library
 
       **pkgconfig**    /Library/Frameworks/R.framework/Versions/4.0/Resources/library
+
+     **prettyunits**   /Library/Frameworks/R.framework/Versions/4.0/Resources/library
+
+      **progress**     /Library/Frameworks/R.framework/Versions/4.0/Resources/library
 
         **purrr**      /Library/Frameworks/R.framework/Versions/4.0/Resources/library
 
@@ -805,6 +1091,8 @@
 
        **readxl**      /Library/Frameworks/R.framework/Versions/4.0/Resources/library
 
+        **renv**       /Library/Frameworks/R.framework/Versions/4.0/Resources/library
+
        **reprex**      /Library/Frameworks/R.framework/Versions/4.0/Resources/library
 
         **rlang**      /Library/Frameworks/R.framework/Versions/4.0/Resources/library
@@ -817,15 +1105,17 @@
 
        **scales**      /Library/Frameworks/R.framework/Versions/4.0/Resources/library
 
+       **selectr**     /Library/Frameworks/R.framework/Versions/4.0/Resources/library
+
      **sessioninfo**   /Library/Frameworks/R.framework/Versions/4.0/Resources/library
 
       **stargazer**    /Library/Frameworks/R.framework/Versions/4.0/Resources/library
 
-       **statmod**     /Library/Frameworks/R.framework/Versions/4.0/Resources/library
-
        **stringi**     /Library/Frameworks/R.framework/Versions/4.0/Resources/library
 
        **stringr**     /Library/Frameworks/R.framework/Versions/4.0/Resources/library
+
+         **sys**       /Library/Frameworks/R.framework/Versions/4.0/Resources/library
 
      **systemfonts**   /Library/Frameworks/R.framework/Versions/4.0/Resources/library
 
@@ -838,6 +1128,8 @@
      **tidyselect**    /Library/Frameworks/R.framework/Versions/4.0/Resources/library
 
       **tidyverse**    /Library/Frameworks/R.framework/Versions/4.0/Resources/library
+
+       **usethis**     /Library/Frameworks/R.framework/Versions/4.0/Resources/library
 
         **utf8**       /Library/Frameworks/R.framework/Versions/4.0/Resources/library
 
@@ -852,8 +1144,6 @@
         **xml2**       /Library/Frameworks/R.framework/Versions/4.0/Resources/library
 
         **yaml**       /Library/Frameworks/R.framework/Versions/4.0/Resources/library
-
-         **zip**       /Library/Frameworks/R.framework/Versions/4.0/Resources/library
     ----------------------------------------------------------------------------------
 
 
