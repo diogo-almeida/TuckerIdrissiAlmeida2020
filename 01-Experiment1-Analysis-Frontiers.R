@@ -86,7 +86,7 @@ exp1.original <- pin_get("experiment1_data") %>%
 
 ## Saving a copy of the original dataset on the data folder --------------------
 exp1.original %>%
-  readr::write_csv(here(data.dir, "experiment1.csv"))
+  readr::write_csv(path(data.dir, "experiment1.csv"))
 
 ## Set parameters for data analysis --------------------------------------------
 wins.cutoff  <- .01   # 1% cutoff
@@ -159,7 +159,6 @@ exp1.data.gdave <- exp1.data.saves %>%
            remove = FALSE) %>%
   ungroup() %>%
   mutate(SubjPhi = rep("Gend", time = length(Match))) %>%
-  mutate(across(where(is.character), factor)) %>%
   mutate(Experiment = rep("exp1.A", times = length(SubjPhi))) %>%
   droplevels()
 
@@ -177,7 +176,7 @@ colnames(exp1.means.latex) <- c("Condition", "Region", "Mean", "SE")
 
 exp1.means.latex %>% select(Condition, Mean, SE) %>%
   stargazer::stargazer(summary=FALSE, rownames=FALSE, keep=c(1, 2, 3), 
-                       out=here(tbls.dir, "exp1-means.tex"))
+                       out=path(tbls.dir, "exp1-means.tex"))
 
 ## Grand Average Plotting ------------------------------------------------------
 exp1.grand.average.plot <- ggplot(exp1.data.gdave, 
@@ -210,12 +209,12 @@ plot.manuscript.all <- exp1.grand.average.plot +
 
 ## Save the plots --------------------------------------------------------------
 ggsave(plot.manuscript.all,
-       file = here(figs.dir, "exp1.pdf"),
+       file = path(figs.dir, "exp1.pdf"),
        width = spr.rt.width, height = spr.rt.height)
 ggsave(plot.manuscript.all, 
-       file = here(figs.dir, "exp1.eps"), 
+       file = path(figs.dir, "exp1.eps"), 
        width = spr.rt.width, height = spr.rt.height, device = cairo_ps)
-agg_png(filename = here(figs.dir, "exp1.png"),
+agg_png(filename = path(figs.dir, "exp1.png"),
         width = spr.rt.width, height = spr.rt.height, units = "in",
         res = 216)
 print(plot.manuscript.all)
@@ -299,12 +298,12 @@ exp1.effects %>%
   droplevels() %>%
   pivot_wider(names_from = Region, values_from = Mean) %>%
   stargazer::stargazer(type = "latex", summary = FALSE, rownames = FALSE,
-                       out=here(tbls.dir, "exp1-cis.tex"))
+                       out=path(tbls.dir, "exp1-cis.tex"))
 
 
 ## Save the relevant data structures for future manipulation -------------------
 save(exp1.data.ok, exp1.data.saves, exp1.data.gdave, exp1.effects,
-     file = here(meta.dir, "Experiment1-DataForMetaAnalysis.RData"))
+     file = path(meta.dir, "Experiment1-DataForMetaAnalysis.RData"))
 
 ## Clean environment -----------------------------------------------------------
 rm(list = ls())
