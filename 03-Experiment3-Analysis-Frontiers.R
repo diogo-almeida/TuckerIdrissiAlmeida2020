@@ -83,7 +83,7 @@ exp3.original <- pin_get("experiment3_data") %>%
 
 ## Saving a copy of the original dataset on the data folder --------------------
 exp3.original %>%
-  readr::write_csv(here(data.dir, "experiment3.csv"))
+  readr::write_csv(path(data.dir, "experiment3.csv"))
 
 ### Set parameters for data analysis -------------------------------------------
 wins.cutoff  <- .01   # 1% cutoff
@@ -156,7 +156,6 @@ exp3.data.gdave <- exp3.data.saves %>%
            remove = FALSE) %>%
   ungroup() %>%
   mutate(SubjPhi = rep("Num", time = length(Match))) %>%
-  mutate(across(where(is.character), factor)) %>%
   mutate(Experiment = rep("exp3.A", times = length(SubjPhi))) %>%
   droplevels()
 
@@ -174,7 +173,7 @@ colnames(exp3.means.latex) <- c("Condition", "Region", "Mean", "SE")
 
 exp3.means.latex %>% select(Condition, Mean, SE) %>%
   stargazer::stargazer(summary = FALSE, rownames = FALSE, keep = c(1, 2, 3), 
-                       out = here(tbls.dir, "exp3-means.tex"))
+                       out = path(tbls.dir, "exp3-means.tex"))
 
 ## Grand Average Plotting ------------------------------------------------------
 exp3.grand.average.plot <- ggplot(exp3.data.gdave, 
@@ -209,12 +208,12 @@ plot.manuscript.all <- exp3.grand.average.plot +
 
 ## Save the plots --------------------------------------------------------------
 ggsave(plot.manuscript.all,
-       file = here(figs.dir, "exp3.pdf"),
+       file = path(figs.dir, "exp3.pdf"),
        width = spr.rt.width, height = spr.rt.height)
 ggsave(plot.manuscript.all, 
-       file = here(figs.dir, "exp3.eps"), 
+       file = path(figs.dir, "exp3.eps"), 
        width = spr.rt.width, height = spr.rt.height, device = cairo_ps)
-agg_png(filename = here(figs.dir, "exp3.png"),
+agg_png(filename = path(figs.dir, "exp3.png"),
         width = spr.rt.width, height = spr.rt.height, units = "in",
         res = 216)
 print(plot.manuscript.all)
@@ -291,7 +290,7 @@ exp3.effects <- bind_rows(exp3.attr.ungram, exp3.attr.gram, exp3.grammaticality)
 ## LaTeX tables for Effects and their Bootstrapped 95% CIs ---------------------
 exp3.effects %>%
   filter(Region %in% rois) %>%
-  mutate(across(where(is.factor), as.character)) %>%
+  mutate_if(is.factor, as.character) %>%
   group_by(SubExperiment) %>%
   mutate(SE = sqrt(VarEffect),
          Mean = paste0(round(MeanEffect, 0), " (", round(CI.min, 0), ", ", 
@@ -304,11 +303,11 @@ exp3.effects %>%
   ungroup() %>%
   pivot_wider(names_from = Region, values_from = Mean) %>%
   stargazer::stargazer(type = "latex", summary = FALSE, rownames = FALSE,
-                       out=here(tbls.dir, "exp3-cis.tex"))
+                       out=path(tbls.dir, "exp3-cis.tex"))
 
 ## Save the relevant data structures for future manipulation -------------------
 save(exp3.data.ok, exp3.data.saves, exp3.data.gdave, exp3.effects, 
-     file = here(meta.dir, "Experiment3-DataForMetaAnalysis.RData"))
+     file = path(meta.dir, "Experiment3-DataForMetaAnalysis.RData"))
 
 ## Clean environment -----------------------------------------------------------
 rm(list = ls())
