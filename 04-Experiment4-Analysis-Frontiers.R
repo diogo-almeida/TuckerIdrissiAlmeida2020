@@ -86,7 +86,7 @@ Exp4.A <- paste0("S", 1:112)
 
 ## Saving a copy of the original dataset on the data folder --------------------
 exp4.original %>%
-  readr::write_csv(here(data.dir, "experiment4.csv"))
+  readr::write_csv(path(data.dir, "experiment4.csv"))
 
 ## Set parameters for data analysis --------------------------------------------
 wins.cutoff  <- .01   # 1% cutoff
@@ -178,7 +178,6 @@ exp4.data.gdave <- exp4.data.saves %>%
            remove = FALSE) %>%
   ungroup() %>%
   mutate(Condition, MatchGramCondition = factor(paste(Match, Grammaticality, sep = "/"))) %>%
-  mutate(across(where(is.character), factor)) %>%
   rename(SubjectPhiFeature = SubjPhi) %>%
   mutate(SubjPhi = factor(SubjectPhiFeature, levels = c("Sg", "Pl")),
          Experiment = factor(rep("Exp4", times = length(SubjPhi)))) %>%
@@ -207,7 +206,7 @@ colnames(exp4a.means.latex) <- c("Condition", "Region", "Mean", "SE")
 
 exp4a.means.latex %>% select(Condition, Mean, SE) %>%
   stargazer::stargazer(summary = FALSE, rownames = FALSE, keep = c(1, 2, 3), 
-                       out = here(tbls.dir, "exp4a-means.tex"))
+                       out = path(tbls.dir, "exp4a-means.tex"))
 
 exp4b.means.latex <- exp4.data.gdave %>%
   filter(Region %in% regions.for.table & SubExperiment == "B") %>% 
@@ -221,7 +220,7 @@ colnames(exp4b.means.latex) <- c("Condition", "Region", "Mean", "SE")
 
 exp4b.means.latex %>% select(Condition, Mean, SE) %>%
   stargazer::stargazer(summary = FALSE, rownames = FALSE, keep = c(1, 2, 3), 
-                       out = here(tbls.dir, "exp4b-means.tex"))
+                       out = path(tbls.dir, "exp4b-means.tex"))
 
 ## Grand Average Plotting ------------------------------------------------------
 exp4.grand.average.plot <- ggplot(exp4.data.gdave, 
@@ -255,12 +254,12 @@ plot.manuscript.all <- exp4.grand.average.plot +
 
 ## Save the plots --------------------------------------------------------------
 ggsave(plot.manuscript.all, 
-       file = here(figs.dir, "exp4.pdf"),
+       file = path(figs.dir, "exp4.pdf"),
        width = spr.rt.width, height = spr.rt.height)
 ggsave(plot.manuscript.all, 
-       file = here(figs.dir, "exp4.eps"), 
+       file = path(figs.dir, "exp4.eps"), 
        width = spr.rt.width, height = spr.rt.height, device = cairo_ps)
-agg_png(filename = here(figs.dir, "exp4.png"),
+agg_png(filename = path(figs.dir, "exp4.png"),
         width = spr.rt.width, height = spr.rt.height, units = "in",
         res = 216)
 print(plot.manuscript.all)
@@ -334,7 +333,7 @@ exp4.effects <- bind_rows(exp4.attr.ungram, exp4.attr.gram, exp4.grammaticality)
 ## LaTeX tables for Effects and their Bootstrapped 95% CIs ---------------------
 exp4.effects %>%
   filter(Region %in% rois) %>%
-  mutate(across(where(is.factor), as.character)) %>%
+  mutate_if(is.factor, as.character) %>%
   group_by(SubExperiment) %>%
   mutate(SE = sqrt(VarEffect),
          Mean = paste0(round(MeanEffect, 0), " (", round(CI.min, 0), ", ", round(CI.max, 0), ")")) %>%
@@ -349,11 +348,11 @@ exp4.effects %>%
   ungroup() %>%
   pivot_wider(names_from = Region, values_from = Mean) %>%
   stargazer::stargazer(type = "latex", summary = FALSE, rownames = FALSE,
-                       out=here(tbls.dir, "exp4-cis.tex"))
+                       out=path(tbls.dir, "exp4-cis.tex"))
 
 ## Save the relevant data structures for future manipulation -------------------
 save(exp4.data.ok, exp4.data.saves, exp4.data.gdave, exp4.effects,
-     file = here(meta.dir, "Experiment4-DataForMetaAnalysis.RData"))
+     file = path(meta.dir, "Experiment4-DataForMetaAnalysis.RData"))
 
 ## Clean environment -----------------------------------------------------------
 rm(list = ls())
