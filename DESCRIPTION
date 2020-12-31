@@ -31,5 +31,6 @@ Depends:
     viridis
 Remotes: 
     karthik/holepunch
+    tidyverse/dplyr
 Encoding: UTF-8
 LazyData: true
