@@ -11,7 +11,7 @@ write_compendium_description(package = "TuckerIdrissiAlmeida2020",
                              doi: 10.3389/fpsyg.2020.586464")
 
 write_dockerfile(maintainer = "diogo-almeida", branch = "main", 
-                 r_date = "2020-04-03") 
+                 r_date = "2020-04-23")
 # To write a Dockerfile. It will automatically pick the date of the last 
 # modified file, match it to that version of R and add it here. You can 
 # override this by passing r_date to some arbitrary date
