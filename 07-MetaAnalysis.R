@@ -243,8 +243,8 @@ num.attr.pl.V2.g <- rma(yi = MeanEffect, vi = VarEffect, method = "FE",
 
 ## Forest Plots: Number Attraction Ungrammatical + Grammatical Sentences, Sg ---
 ### Number Attraction plotting parameters: Singular Subjects Sentences ---------
-spr.rt.width  <-  7 #10.4
-spr.rt.height <-  7.5 #5.87
+spr.rt.width  <-  7
+spr.rt.height <-  7.5
 plotcex <-  1
 plotcex.axis <- 1
 plotcex.main <- 1.3
@@ -255,7 +255,7 @@ num.attr.pl.order <- na.omit(match(chrono.order, num.attr.pl.V.u$slab))
 num.exp.labels.sg <- exp.plotlabels[exp.labels %in% num.attr.sg.V.u$slab]
 num.exp.labels.pl <- exp.plotlabels[exp.labels %in% num.attr.pl.V.u$slab]
 
-# Attraction Number Singular - Ungrammatical + Grammatical
+## Attraction Number Singular - Ungrammatical + Grammatical PDF plot -----------
 pdf(file = here(figs.dir, "Attraction-Num-Sg.pdf"),
     width = spr.rt.width, height = spr.rt.height)
 par(mar = c(4, 0, 0, 1.5))
@@ -293,19 +293,96 @@ forest(num.attr.sg.V2.g, order = num.attr.sg.order,
        cex.lab = plotcex.axis.lab, digits = plotdigits)
 dev.off()
 
+## Attraction Number Singular - Ungrammatical + Grammatical EPS plot -----------
+setEPS()
+postscript(file = path(figs.dir, "Attraction-Num-Sg.eps"),
+           width = spr.rt.width, height = spr.rt.height)
+par(mar = c(4, 0, 0, 1.5))
+par(mfrow = c(2, 3))
+
+## First Row: Ungrammatical Sentences
+forest(num.attr.sg.V.u, order = num.attr.sg.order,
+       slab = num.exp.labels.sg,
+       main = "\n\n\n\n\n\nVerb", cex = plotcex, cex.main = plotcex.main, 
+       cex.axis = plotcex.axis, cex.lab = plotcex.axis.lab, digits = plotdigits)
+forest(num.attr.sg.V1.u, order = num.attr.sg.order,
+       slab = num.exp.labels.sg,
+       main = "\n\n\n\nSingular Subjects\nUngrammatical Sentences\nVerb+1", 
+       cex = plotcex, cex.main = plotcex.main, cex.axis = plotcex.axis, 
+       cex.lab = plotcex.axis.lab, digits = plotdigits)
+forest(num.attr.sg.V2.u, order = num.attr.sg.order,
+       slab = num.exp.labels.sg,
+       main = "\n\n\n\n\n\nVerb+2", cex = plotcex, cex.main = plotcex.main,
+       cex.axis = plotcex.axis, cex.lab = plotcex.axis.lab, digits = plotdigits)
+
+## Second Row: Grammatical Sentences
+forest(num.attr.sg.V.g, order = num.attr.sg.order, 
+       slab = num.exp.labels.sg,
+       main = "\n\n\n\n\n\nVerb", cex = plotcex, cex.main = plotcex.main, 
+       cex.axis = plotcex.axis, cex.lab = plotcex.axis.lab, digits = plotdigits)
+forest(num.attr.sg.V1.g, order = num.attr.sg.order, 
+       slab = num.exp.labels.sg,
+       main = "\n\n\n\nSingular Subjects\nGrammatical Sentences\nVerb+1", 
+       cex = plotcex, cex.main = plotcex.main, cex.axis = plotcex.axis, 
+       cex.lab = plotcex.axis.lab, digits = plotdigits)
+forest(num.attr.sg.V2.g, order = num.attr.sg.order, 
+       slab = num.exp.labels.sg,
+       main = "\n\n\n\n\n\nVerb+2", 
+       cex = plotcex, cex.main = plotcex.main, cex.axis = plotcex.axis, 
+       cex.lab = plotcex.axis.lab, digits = plotdigits)
+dev.off()
+
 ## Forest Plots: Number Attraction Ungrammatical + Grammatical Sentences, Pl ---
 ## Number Attraction plotting parameters: Plural Subjects Sentences ---------
-spr.rt.width  <-  7 #10.4
-spr.rt.height <-  3.75 #5.87
+spr.rt.width  <-  7
+spr.rt.height <-  3.75
 plotcex <-  1
 plotcex.axis <- 1
 plotcex.main <- 1
 plotcex.axis.lab <- 1
 plotdigits <- 0L
 
-# Attraction Number Plural - Ungrammatical + Grammatical
+
+## Attraction Number Plural - Ungrammatical + Grammatical PDF plots ------------
 pdf(file = here(figs.dir, "Attraction-Num-Pl.pdf"),
     width = spr.rt.width, height = spr.rt.height)
+par(mar = c(4, 0, 0, 1.5))
+par(mfrow = c(2, 3))
+
+## First Row: Ungrammatical Sentences
+forest(num.attr.pl.V.u, order = num.attr.pl.order, 
+       slab = num.exp.labels.pl,
+       main = "\n\n\n\n\nVerb", cex = plotcex, cex.main = plotcex.main, 
+       cex.axis = plotcex.axis, cex.lab = plotcex.axis.lab, digits = plotdigits)
+forest(num.attr.pl.V1.u, order = num.attr.pl.order, 
+       slab = num.exp.labels.pl,
+       main = "\n\n\nPlural Subjects\nUngrammatical Sentences\nVerb+1", 
+       cex = plotcex, cex.main = plotcex.main, cex.axis = plotcex.axis, 
+       cex.lab = plotcex.axis.lab, digits = plotdigits)
+forest(num.attr.pl.V2.u, order = num.attr.pl.order, 
+       slab = num.exp.labels.pl,
+       main = "\n\n\n\n\nVerb+2", cex = plotcex, cex.main = plotcex.main, 
+       cex.axis = plotcex.axis, cex.lab = plotcex.axis.lab, digits = plotdigits)
+## Second Row: Grammatical Sentences
+forest(num.attr.pl.V.g, order = num.attr.pl.order, 
+       slab = num.exp.labels.pl,
+       main = "\n\n\n\n\nVerb", cex = plotcex, cex.main = plotcex.main, 
+       cex.axis = plotcex.axis, cex.lab = plotcex.axis.lab, digits = plotdigits)
+forest(num.attr.pl.V1.g, order = num.attr.pl.order, 
+       slab = num.exp.labels.pl,
+       main = "\n\n\nPlural Subjects\nGrammatical Sentences\nVerb+1", 
+       cex = plotcex, cex.main = plotcex.main, cex.axis = plotcex.axis, 
+       cex.lab = plotcex.axis.lab, digits = plotdigits)
+forest(num.attr.pl.V2.g, order = num.attr.pl.order, 
+       slab = num.exp.labels.pl,
+       main = "\n\n\n\n\nVerb+2", cex = plotcex, cex.main = plotcex.main, 
+       cex.axis = plotcex.axis, cex.lab = plotcex.axis.lab, digits = plotdigits)
+dev.off()
+
+## Attraction Number Plural - Ungrammatical + Grammatical PDF plots ------------
+setEPS()
+postscript(file = path(figs.dir, "Attraction-Num-Pl.eps"),
+           width = spr.rt.width, height = spr.rt.height)
 par(mar = c(4, 0, 0, 1.5))
 par(mfrow = c(2, 3))
 
@@ -417,8 +494,8 @@ gend.attr.fem.V2.g <- rma(yi = MeanEffect, vi = VarEffect, method = "FE",
 
 ## Forest Plots: Gender Attraction Ungrammatical + Grammatical Sentences, Masc -
 ## Gender Attraction plotting parameters: Masc Subjects Sentences ---------
-spr.rt.width  <-  7 #10.4
-spr.rt.height <-  7.75 #5.87
+spr.rt.width  <-  7
+spr.rt.height <-  7.75
 plotcex <-  1
 plotcex.axis <- 1
 plotcex.main <- 1.3
@@ -429,9 +506,46 @@ gend.attr.fem.order <- na.omit(match(chrono.order, gend.attr.fem.V.u$slab))
 gend.exp.labels.masc <- exp.plotlabels[exp.labels %in% gend.attr.masc.V.u$slab]
 gend.exp.labels.fem <- exp.plotlabels[exp.labels %in% gend.attr.fem.V.u$slab]
 
-# Attraction Gender Masc - Ungrammatical + Grammatical
+## Attraction Gender Masc - Ungrammatical + Grammatical PDF plot ---------------
 pdf(file = here(figs.dir, "Attraction-Gen-Masc.pdf"),
     width = spr.rt.width, height = spr.rt.height)
+par(mar = c(4, 0, 0, 1.5))
+par(mfrow = c(2, 3))
+
+## First row: Ungrammatical Sentences
+forest(gend.attr.masc.V.u, order = gend.attr.masc.order,
+       slab = gend.exp.labels.masc,
+       main = "\n\n\n\n\n\n\n\nVerb", cex = plotcex, cex.main = plotcex.main, 
+       cex.axis = plotcex.axis, cex.lab = plotcex.axis.lab, digits = plotdigits)
+forest(gend.attr.masc.V1.u, order = gend.attr.masc.order, 
+       slab = gend.exp.labels.masc,
+       main = "\n\n\n\n\nMasculine Subjects\nUngrammatical Sentences\n\nVerb+1",
+       cex = plotcex, cex.main = plotcex.main, cex.axis = plotcex.axis, 
+       cex.lab = plotcex.axis.lab, digits = plotdigits)
+forest(gend.attr.masc.V2.u, order = gend.attr.masc.order, 
+       slab = gend.exp.labels.masc,
+       main = "\n\n\n\n\n\n\n\nVerb+2", cex = plotcex, cex.main = plotcex.main,
+       cex.axis = plotcex.axis, cex.lab = plotcex.axis.lab, digits = plotdigits)
+## Second Row: Grammatical Sentences
+forest(gend.attr.masc.V.g, order = gend.attr.masc.order, 
+       slab = gend.exp.labels.masc,
+       main = "\n\n\n\n\n\n\n\nVerb", cex = plotcex, cex.main = plotcex.main, 
+       cex.axis = plotcex.axis, cex.lab = plotcex.axis.lab, digits = plotdigits)
+forest(gend.attr.masc.V1.g, order = gend.attr.masc.order,
+       slab = gend.exp.labels.masc,
+       main = "\n\n\n\n\nMasculine Subjects\nGrammatical Sentences\n\nVerb+1", 
+       cex = plotcex, cex.main = plotcex.main, cex.axis = plotcex.axis, 
+       cex.lab = plotcex.axis.lab, digits = plotdigits)
+forest(gend.attr.masc.V2.g, order = gend.attr.masc.order,
+       slab = gend.exp.labels.masc,
+       main = "\n\n\n\n\n\n\n\nVerb+2", cex = plotcex, cex.main = plotcex.main,
+       cex.axis = plotcex.axis, cex.lab = plotcex.axis.lab, digits = plotdigits)
+dev.off()
+
+## Attraction Gender Masc - Ungrammatical + Grammatical EPS plot ---------------
+setEPS()
+postscript(file = path(figs.dir, "Attraction-Gen-Masc.eps"),
+           width = spr.rt.width, height = spr.rt.height)
 par(mar = c(4, 0, 0, 1.5))
 par(mfrow = c(2, 3))
 
@@ -465,22 +579,60 @@ forest(gend.attr.masc.V2.g, order = gend.attr.masc.order,
        cex.axis = plotcex.axis, cex.lab = plotcex.axis.lab, digits = plotdigits)
 dev.off()
 
+
 ## Forest Plots: Gender Attraction Ungrammatical + Grammatical Sentences, Fem --
 ## Gender Attraction plotting parameters: Fem Subjects Sentences ---------------
-spr.rt.width  <-  7 #10.4
-spr.rt.height <-  3.75 #5.87
+spr.rt.width  <-  7
+spr.rt.height <-  3.75
 plotcex <-  1
 plotcex.axis <- 1
 plotcex.main <- 1
 plotcex.axis.lab <- 1
 plotdigits <- 0L
 
-# Attraction Gender Feminine - Ungrammatical + Grammatical
+# Attraction Gender Feminine - Ungrammatical + Grammatical PDF plot
 pdf(file = here(figs.dir, "Attraction-Gen-Fem.pdf"),
     width = spr.rt.width, height = spr.rt.height)
 par(mar = c(4, 0, 0, 1.5))
 par(mfrow = c(2, 3))
 
+## First Row: Ungrammatical Sentences
+forest(gend.attr.fem.V.u, order = gend.attr.fem.order,
+       slab = gend.exp.labels.fem,
+       main = "\n\n\n\n\nVerb", cex = plotcex, cex.main = plotcex.main, 
+       cex.axis = plotcex.axis, cex.lab = plotcex.axis.lab, digits = plotdigits)
+forest(gend.attr.fem.V1.u, order = gend.attr.fem.order, 
+       slab = gend.exp.labels.fem,
+       main = "\n\n\nFeminine Subjects\nUngrammatical Sentences\nVerb+1", 
+       cex = plotcex, cex.main = plotcex.main, cex.axis = plotcex.axis, 
+       cex.lab = plotcex.axis.lab, digits = plotdigits)
+forest(gend.attr.fem.V2.u, order = gend.attr.fem.order, 
+       slab = gend.exp.labels.fem,
+       main = "\n\n\n\n\nVerb+2", cex = plotcex, cex.main = plotcex.main, 
+       cex.axis = plotcex.axis, cex.lab = plotcex.axis.lab, digits = plotdigits)
+
+## Second Row: Grammatical Sentences
+forest(gend.attr.fem.V.g, order = gend.attr.fem.order,
+       slab = gend.exp.labels.fem,
+       main = "\n\n\n\n\nVerb", cex = plotcex, cex.main = plotcex.main, 
+       cex.axis = plotcex.axis, cex.lab = plotcex.axis.lab, digits = plotdigits)
+forest(gend.attr.fem.V1.g, order = gend.attr.fem.order, 
+       slab = gend.exp.labels.fem,
+       main = "\n\n\nFeminine Subjects\nGrammatical Sentences\nVerb+1", 
+       cex = plotcex, cex.main = plotcex.main, cex.axis = plotcex.axis, 
+       cex.lab = plotcex.axis.lab, digits = plotdigits)
+forest(gend.attr.fem.V2.g, order = gend.attr.fem.order, 
+       slab = gend.exp.labels.fem,
+       main = "\n\n\n\n\nVerb+2", cex = plotcex, cex.main = plotcex.main, 
+       cex.axis = plotcex.axis, cex.lab = plotcex.axis.lab, digits = plotdigits)
+dev.off()
+
+# Attraction Gender Feminine - Ungrammatical + Grammatical EPS plot
+setEPS()
+postscript(file = path(figs.dir, "Attraction-Gen-Fem.eps"),
+           width = spr.rt.width, height = spr.rt.height)
+par(mar = c(4, 0, 0, 1.5))
+par(mfrow = c(2, 3))
 ## First Row: Ungrammatical Sentences
 forest(gend.attr.fem.V.u, order = gend.attr.fem.order,
        slab = gend.exp.labels.fem,
