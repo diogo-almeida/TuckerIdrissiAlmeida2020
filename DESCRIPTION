@@ -1,6 +1,7 @@
 Type: Compendium
 Package: TuckerIdrissiAlmeida2020
-Title: What the Package Does (One Line, Title Case)
+Title: Research compendium including data and analysis code for the research 
+    reported in Tucker, Idrissi & Almeida (2020).
 Version: 0.0.1
 Authors@R: 
     person(given = "Diogo",
@@ -12,7 +13,7 @@ Description: Reproducibility package for the research
     verbal gender and number are similar but not identical: self-paced
     reading evidence from Modern Standard Arabic. Frontiers in
     Psychology, Language Sciences. doi: 10.3389/fpsyg.2020.586464
-License: What license it uses
+License: GPL-3
 Depends: 
     bootES,
     fs,

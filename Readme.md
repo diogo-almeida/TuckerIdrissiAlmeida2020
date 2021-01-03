@@ -7,9 +7,11 @@
 
 # Research compendium for Tucker, Idrissi & Almeida (2020).
 
-A compendium of code, data, and author's manuscript accompanying the publication:
+A compendium of code and data accompanying the publication:
 
 #### Tucker [![](https://orcid.org/sites/default/files/images/orcid_16x16.png)](http://orcid.org/0000-0002-1514-4598), Idrissi [![](https://orcid.org/sites/default/files/images/orcid_16x16.png)](http://orcid.org/0000-0002-2226-6016), & Almeida [![](https://orcid.org/sites/default/files/images/orcid_16x16.png)](http://orcid.org/0000-0003-4674-8092). (2020). Attraction effects for verbal gender and number are similar but not identical: self-paced reading evidence from Modern Standard Arabic.  Published in *Frontiers in Psychology, Language Sciences*, <https://doi.org/10.3389/fpsyg.2020.586464>
+
+This compendium should allow for the reproduction of all figures and tables reported in the paper.
 
 ## Running the scripts
 
