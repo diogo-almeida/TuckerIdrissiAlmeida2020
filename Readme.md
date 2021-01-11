@@ -44,3 +44,10 @@ Also, keep in mind that this is under testing and may fail. I managed to get it 
 
 2. The bootstrapped CIs reported in the paper will differ a little from the ones generated from these scripts. We forgot to set a reproducible seed on the original analysis scripts, so the exact bootstrapped CIs reported in the paper are not reproducible, but the ones from the scripts are.
 
+## Licenses
+
+Text & Data: [CC-BY-4.0](http://creativecommons.org/licenses/by/4.0/)
+
+Code: [GPL-3](https://www.gnu.org/licenses/gpl-3.0.en.html)
+
+
