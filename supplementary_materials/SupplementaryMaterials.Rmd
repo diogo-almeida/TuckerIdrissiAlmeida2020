@@ -1,0 +1,1530 @@
+---
+title: "Materials for Tucker, Idrissi and Almeida (2020)"
+author: 
+  - Matthew A. Tucker
+  - Ali Idrissi
+  - Diogo Almeida
+date: "12/31/2020"
+documentclass: article
+lang: en-US
+otherlangs: ar
+mainfont: Markazi Text
+header-includes:
+  - \newfontfamily\arabicfont[Script=Arabic]{Markazi Text}
+output: 
+  pdf_document:
+    latex_engine: xelatex
+    toc: true
+    toc_depth: 2
+    number_sections: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+\newpage{}
+
+# Complete Materials - Experiments 1-2
+
+#. ::: {}
+The translator who helped the manager occasionally speaks five languages fluently.
+:::
+::: {lang=ar}
+المترجم الذي ساعد المدير أحياناً يتكلم خمس لغات بفصاحة.
+:::
+
+#. ::: {}
+The student who saw the professor yesterday studied electrical engineering at the university.
+:::
+::: {lang=ar}
+الطالب الذي رأى الأستاذ بالأمسِ درس الهندسة الكهربائية في الجامعة.
+:::
+
+#. ::: {}
+The engineer who met the scientist by chance is working on a new invention.
+:::
+::: {lang=ar}
+المهندس الذي استقبل العالِم بالصدفةِ يعمل على ابتكار جديد.
+:::
+
+#. ::: {}
+The cook who scolded the waiter forcefully works in an expensive restaurant during the summer.
+:::
+::: {lang=ar}
+الطباخ الذي وبّخ النادل بشدةٍ يشتغل في مطعم غالٍ خلال الصيف.
+:::
+
+#. ::: {}
+The analyst who advised the minister intelligently discusses the Palestinian issue in depth.
+:::
+::: {lang=ar}
+المحلل الذي نصح الوزير بذكاءٍ يتناول القضية الفلسطينية بعمق.
+:::
+
+#. ::: {}
+The child who saw the prince before visits the royal family each week.
+:::
+::: {lang=ar}
+الطفل الذي رأى الأمير سلفاً يزور العائلة الملكية كل أسبوع.
+:::
+
+#. ::: {}
+The teacher who taught the child dedicatedly attended the graduation party of the students.
+:::
+::: {lang=ar}
+المعلم الذي علّم الطفل بتفانٍ حضر حفل تخرج الطلاب.
+:::
+
+#. ::: {}
+The consultant who warned the president yesterday found a solution for the financial problem.
+:::
+::: {lang=ar}
+المستشار الذي حذّر الرئيس بالأمسِ وجد الحل للمشكلة المالية.
+:::
+
+#. ::: {}
+The driver who accompanied the ambassador regularly works seven days a week.
+:::
+::: {lang=ar}
+السائق الذي رافق السفير بانتظامٍ يعمل سبعة أيام في الأسبوع.
+:::
+
+#. ::: {}
+The jailor who tortured the prisoner constantly cleans the cells nightly.
+:::
+::: {lang=ar}
+السجّان الذي عذّب السجين باستمرارٍ ينظف الزنازين كل ليلة.
+:::
+
+#. ::: {}
+The broadcaster who talked to the activist yesterday trained in a famous company.
+:::
+::: {lang=ar}
+المذيع الذي كلم الناشط بالأمس تدرب في شركة مشهورة.
+:::
+
+#. ::: {}
+The employee who helped the colleague humbly gained the confidence of all the colleagues at work.
+:::
+::: {lang=ar}
+الموظف الذي ساعد الزميل بتواضع استطاع كسب ثقة باقي الزملاء في العمل.
+:::
+
+#. ::: {}
+The singer who challenged the poet arrogantly has lost for not showing up on time.
+:::
+::: {lang=ar}
+المنشد الذي تحدى الشاعر بغرور خسر لعدم حضوره في الوقت المحدد.
+:::
+
+#. ::: {}
+The beginner who questioned the expert daily has acquired good experience.
+:::
+::: {lang=ar}
+المبتدئ الذي سأل الخبير يومياً اكتسب خبرة جيدة.
+:::
+
+#. ::: {}
+The man who hosted the friend with pleasure slept in the basement of the house.
+:::
+::: {lang=ar}
+الرجل الذي استضاف الصديق بسرور نام في الطابق السفلي من المنزل.
+:::
+
+#. ::: {}
+The patient who consulted the doctor yesterday returned home satisfied.
+:::
+::: {lang=ar}
+المريض الذي استشار الطبيب بالأمس عاد الى المنزل مطمئنا.
+:::
+
+#. ::: {}
+The teacher who met the writer happily likes reading about literature.
+:::
+::: {lang=ar}
+المعلم الذي استقبل الأديب بسعادةٍ يحب القراءة عن الأدب.
+:::
+
+#. ::: {}
+The manager who phoned the partner in the morning plans to expand the branches of the company.
+:::
+::: {lang=ar}
+المدير الذي هاتف الشريك بالصباح يخطط لتوسيع فروع الشركة.
+:::
+
+#. ::: {}
+The chef who invited the guest in the evening masters preparing various delicious dishes.
+:::
+::: {lang=ar}
+الطاهي الذي دعا النزيل بالمساء يتقن إعداد أصناف لذيذة من الطعام.
+:::
+
+#. ::: {}
+The child who saw the magician with amazement applauded hysterically during the show.
+:::
+::: {lang=ar}
+الطفل الذي رأى الساحر بانبهار صفق بشدة خلال العرض.
+:::
+
+#. ::: {}
+The young man who helped the wounded man in the morning spends the whole week reading.
+:::
+::: {lang=ar}
+الشاب الذي ساعد الجريح صباحاً يقضي كل الأسبوع في المطالعة.
+:::
+
+#. ::: {}
+The doctor who healed the captive quickly is joining the national guard (army).
+:::
+::: {lang=ar}
+الطبيب الذي عالج الأسير بسرعةٍ ينخرط في فرقة الدفاع المدني.
+:::
+
+#. ::: {}
+The ruler who imprisoned the criminal previously practiced justice and equality among the people.
+:::
+::: {lang=ar}
+الحاكم الذي سجن المجرم سابقاً مارس العدل والمساواة على الشعب.
+:::
+
+#. ::: {}
+The coach who trained the partner efficiently possesses more than 10-years of experience.
+:::
+::: {lang=ar}
+المدرب الذي درّب الرفيق بإتقان يمتلك خبرة تفوق العشر سنين.
+:::
+
+#. ::: {}
+The Imam who advised the neighbor wisely lives in the local neighborhood.
+:::
+::: {lang=ar}
+الإمام الذي نصح الجار بحكمةٍ يعيش في المنطقة المجاورة.
+:::
+
+#. ::: {}
+The policeman who questioned the murderer seriously asked the pedestrians the reasons for the crime.
+:::
+::: {lang=ar}
+الشرطي الذي استجوب القاتل بجديّةٍ سأل المشاة عن سبب الجريمة.
+:::
+
+#. ::: {}
+The lawyer who called the inheritor in the morning discussed the issue of the inheritance distribution.
+:::
+::: {lang=ar}
+المحامي الذي استدعى الوريث بالصباح ناقش موضوع تقسيم الإرث.
+:::
+
+#. ::: {}
+The teacher who taught the student well worked as a host in television.
+:::
+::: {lang=ar}
+الأستاذ الذي علّم الطالب جيداً عمل كمذيع في التلفزيون.
+:::
+
+#. ::: {}
+The immigrant who spoke with the visitor for a long time feels nostalgic for the country always.
+:::
+::: {lang=ar}
+المهاجر الذي حدّث الزائر طويلاً يشعر بالحنين للوطن دائماً.
+:::
+
+#. ::: {}
+The journalist who interviewed the leader persistently published the article in the national newspaper.
+:::
+::: {lang=ar}
+الصحافي الذي استجوب الحاكم بالحاح نشر المقال في الجريدة الوطنية.
+:::
+
+#. ::: {}
+The pilot who greeted the airline attendant warmly asked many questions during the journey.
+:::
+::: {lang=ar}
+الطيار الذي حيّا المضيف بحرارةٍ سأل أسئلة كثيرة خلال الرحلة.
+:::
+
+#. ::: {}
+The man who talked to the monk intelligently works in the post office.
+:::
+::: {lang=ar}
+الرجل الذي كلم الراهب بفطنةٍ يشتغل في مكتب البريد.
+:::
+
+#. ::: {}
+The policeman who arrested the driver quickly helps the pedestrians in crossing the street.
+:::
+::: {lang=ar}
+الشرطي الذي اعتقل السائق بسرعةٍ يساعد المارة على عبور الشارع.
+:::
+
+#. ::: {}
+The lawyer who startled the witness cunningly stopped the accusation of his client in the court.
+:::
+::: {lang=ar}
+المحامي الذي أربك الشاهد بدهاءٍ أبعد التهم عن موكله في المحكمة.
+:::
+
+#. ::: {}
+The worker who helped the soldier yesterday drives a large truck for the company.
+:::
+::: {lang=ar}
+العامل الذي ساعد الجندي بالأمسِ يَسوق شاحنة كبيرة لفائدة الشركة.
+:::
+
+#. ::: {}
+The artist who served the king devotedly gave a portrait to the ambassador of the United States.
+:::
+::: {lang=ar}
+الفنان الذي خدم الملك بتفانٍ تبرع بلوحة لسفير الولايات المتحدة.
+:::
+
+#. ::: {}
+The journalist who hosted the star brilliantly raised very embarrassing questions.
+:::
+::: {lang=ar}
+الإعلامي الذي استضاف النجم بتألق طرح أسئلة محرجة جداً.
+:::
+
+#. ::: {}
+The nurse who treated the patient carefully studies at the university hospital.
+:::
+::: {lang=ar}
+الممرض الذي عالج المريض بعنايةٍ يدرس في مستشفى الجامعة.
+:::
+
+#. ::: {}
+The seller who thanked the customer enthusiastically was happy with the large profit.
+:::
+::: {lang=ar}
+البائع الذي شكر الزبون بحماسٍ فرح بالفائدة الكبيرة.
+:::
+
+#. ::: {}
+The coach who was very interested in the player worked at the National Fencing Academy.
+:::
+::: {lang=ar}
+المدرب الذي اهتم باللاعب جداً اشتغل في الأكاديمية الوطنية للمبارزة.
+:::
+
+#. ::: {}
+The soldier who met the policewoman yesterday loved the atmosphere at the air base.
+:::
+::: {lang=ar}
+الجندي الذي قابل الشرطي بالأمسِ أحبّ العمل في القاعدة الجوية.
+:::
+
+#. ::: {}
+The singer who met the dancer previously sings with the city orchestra.
+:::
+::: {lang=ar}
+المطرب الذي استقبل الراقص سابقاً يغني مع أوركسترا المدينة.
+:::
+
+#. ::: {}
+The producer who enthusiastically chose the actor produces a film every month.
+:::
+::: {lang=ar}
+المخرج الذي اختار الممثل بشغفٍ ينتج فيلما كل شهر.
+:::
+
+#. ::: {}
+The servant who helped the caregiver earnestly cleans the rooms seven days a week.
+:::
+::: {lang=ar}
+الخادم الذي ساعد المربي بجدٍّ ينظف الغرف سبعة أيام في الأسبوع.
+:::
+
+#. ::: {}
+The announcer who invited the historian nicely presented a program on TV.
+:::
+::: {lang=ar}
+المذيع الذي دعا المؤرّخ بلطفٍ قدم برنامجاً في التلفزيون.
+:::
+
+#. ::: {}
+The assistant who served the pharmacist loyally collected all of the old reports.
+:::
+::: {lang=ar}
+المساعِد الذي خدم الصيدلانيّ بإخلاصٍ جمع كل التقارير القديمة.
+:::
+
+#. ::: {}
+The journalist who interviewed the winner by chance writes in many newspapers.
+:::
+::: {lang=ar}
+الصحفي الذي قابل الفائز صدفةً يكتب في صحف كثيرة.
+:::
+
+#. ::: {}
+The bedouin who visited the farmer at night lives in the middle of the desert.
+:::
+::: {lang=ar}
+البدوي الذي زار المُزارع ليلاً يسكن في وسط الصحراء.
+:::
+
+\newpage{}
+# Complete Materials - Experiment 3
+
+Ambiguous           | Unambiguous
+--------------------|------------
+C~1~aC~2~aC~3~a     | C~1~uC~2~aC~3~aa?
+C~1~aC~2~iiC~3~     | ?aC~1~aaC~2~iC~3~a
+C~1~iC~2~aaC~3~     | C~1~awaaC~2~iC~3~
+C~1~iC~2~C~3~aan    | ?aC~1~C~2~aaC~3~
+C~1~uC~2~C~3~aan    | ?aC~1~C~2~iC~3~
+C~1~aC~2~C~3~aa     |
+C~1~uC~2~C~2~aaC~3~ |
+C~1~uC~2~uuC~3~     |
+
+Table: Templates and ambiguity assignments for broken plural templates in Experiment 3. The symbol "?" stands for the glottal stop.
+
+
+#. ::: {}
+The child who saw the magician with amazement applauded hysterically during the show.
+:::
+::: {lang=ar}
+(السحرة)
+الطفل الذي رأى الساحر بانبهار صفق بشدة خلال العرض. 
+:::
+
+#. ::: {}
+The investigator who grabbed the robber at night installs listening devices everywhere.
+:::
+::: {lang=ar}
+(الخونة)
+المحقق الذي أمسك الخائن بالليل يضع أجهزة تنصت في كل مكان. 
+:::
+
+#. ::: {}
+The young man who helped the wounded man in the morning spends the whole week reading.
+:::
+::: {lang=ar}
+(الجرحى)
+الشاب الذي ساعد الجريح صباحاً يقضي كل الأسبوع في المطالعة. 
+:::
+
+#. ::: {}
+The doctor who healed the captive quickly is joining the national guard (army).
+:::
+::: {lang=ar}
+(الأسرى)
+الطبيب الذي عالج الأسير بسرعةٍ ينخرط في فرقة الدفاع المدني. 
+:::
+
+#. ::: {}
+The ruler who freed the slave in the past practiced justice and equality among the people.
+:::
+::: {lang=ar}
+(العبيد)
+الحاكم الذي أعتق العبد قديمًا مارس العدل والمساواة على الشعب. 
+:::
+
+#. ::: {}
+The driver who transported the pilgrim at noon drove the car very quickly.
+:::
+::: {lang=ar}
+(الحجيج)
+السائق الذي أخذ الحاج بالظهيرةٍ قاد السيارة بسرعة فائقة. 
+:::
+
+#. ::: {}
+The carpenter who employed the man regularly made wonderful furniture for the exhibition.
+:::
+::: {lang=ar}
+(الرجال)
+النجار الذي شغّل الرجل بانتظام أعدّ قطع أثاث رائعة للمعرض. 
+:::
+
+#. ::: {}
+The coach who trained the partner efficiently possesses more than 10-years of experience.
+:::
+::: {lang=ar}
+(الرفاق)
+المدرب الذي درّب الرفيق بإتقان يمتلك خبرة تفوق العشر سنين. 
+:::
+
+#. ::: {}
+The tv-host who presented the bridegroom skillfully met with the minister at the New Year’s party.
+:::
+::: {lang=ar}
+(العرسان)
+المذيع الذي قدّم العريس ببراعةٍ قابل الوزير في حفل رأس السنة. 
+:::
+
+#. ::: {}
+The Imam who advised the neighbor wisely lives in the local neighborhood.
+:::
+::: {lang=ar}
+(الجيران)
+الإمام الذي نصح الجار بحكمةٍ يعيش في المنطقة المجاورة. 
+:::
+
+#. ::: {}
+The policeman who questioned the murderer seriously asked the pedestrians about the reasons for the crime.
+:::
+::: {lang=ar}
+(القتلة)
+الشرطي الذي استجوب القاتل بجديّةٍ سأل المشاة عن سبب الجريمة. 
+:::
+
+#. ::: {}
+The lawyer who called the inheritor in the morning discussed the issue of the inheritance distribution.
+:::
+::: {lang=ar}
+(الورثة)
+المحامي الذي استدعى الوريث بالصباح ناقش موضوع تقسيم الإرث. 
+:::
+
+#. ::: {}
+The teacher who taught the student well worked as a host in television.
+:::
+::: {lang=ar}
+(الطلاب)
+الأستاذ الذي علّم الطالب جيداً عمل كمذيع في التلفزيون. 
+:::
+
+#. ::: {}
+The businessman who trained the workers frequently learned English in the UK.
+:::
+::: {lang=ar}
+(العمال)
+التاجر الذي درّب العامل كثيراً تعلم اللغة الانجليزية في بريطانيا. 
+:::
+
+#. ::: {}
+The (football) player who opposed the referee angrily won the prize of best player.
+:::
+::: {lang=ar}
+(الحكام)
+اللاعب الذي عارض الحَكم بغضبٍ فاز بجائزة أفضل لاعب. 
+:::
+
+#. ::: {}
+The immigrant who spoke with the visitor for a long time feels nostalgic for the country always.
+:::
+::: {lang=ar}
+(الزوار)
+المهاجر الذي حدّث الزائر طويلاً يشعر بالحنين للوطن دائماً. 
+:::
+
+#. ::: {}
+The journalist who interviewed the leader persistently publishes the article in the national newspaper.
+:::
+::: {lang=ar}
+(الحكام)
+الصحافي الذي استجوب الحاكم بالحاح نشر المقال في الجريدة الوطنية. 
+:::
+
+#. ::: {}
+The pilot who greeted the knight warmly asked many questions during the journey.
+:::
+::: {lang=ar}
+(الفرسان)
+الطيار الذي حيّا الفارس بحرارةٍ سأل أسئلة كثيرة  خلال الرحلة. 
+:::
+
+#. ::: {}
+The man who talked to the monk intelligently works in the post office.
+:::
+::: {lang=ar}
+(الرهبان)
+الرجل الذي كلم الراهب بفطنةٍ يشتغل في مكتب البريد. 
+:::
+
+#. ::: {}
+The policeman who arrested the thief quickly helps the pedestrians in crossing the street.
+:::
+::: {lang=ar}
+(اللصوص)
+الشرطي الذي اعتقل اللص بسرعةٍ يساعد المارة على عبور الشارع. 
+:::
+
+#. ::: {}
+The lawyer who startled the witness cunningly stopped the accusation of his client in the court.
+:::
+::: {lang=ar}
+(الشهود)
+المحامي الذي أربك الشاهد بدهاءٍ أبعد التهم عن موكله في المحكمة. 
+:::
+
+#. ::: {}
+The worker who helped the soldier yesterday drives a large truck for the company.
+:::
+::: {lang=ar}
+(الجنود)
+العامل الذي ساعد الجندي بالأمسِ يَسوق شاحنة كبيرة لفائدة الشركة. 
+:::
+
+#. ::: {}
+The artist who served the king devotedly gave a portrait to the ambassador of the United States.
+:::
+::: {lang=ar}
+(الملوك)
+الفنان الذي خدم الملك بتفانٍ تبرع بلوحة لسفير الولايات المتحدة. 
+:::
+
+#. ::: {}
+The journalist who hosted the star brilliantly raised very embarrassing questions.
+:::
+::: {lang=ar}
+(النجوم)
+الإعلامي الذي استضاف النجم بتألق طرح أسئلة محرجة جداً. 
+:::
+
+#. ::: {}
+The translator who worked for the manager occasionally speaks five languages fluently.
+:::
+::: {lang=ar}
+(المدراء)
+المترجم الذي ساعد المدير أحياناً يتكلم خمس لغات بفصاحة. 
+:::
+
+#. ::: {}
+The student who saw the professor yesterday studied electrical engineering at the university.
+:::
+::: {lang=ar}
+(الأساتذة)
+الطالب الذي رأى الأستاذ بالأمسِ درس الهندسة الكهربائية في الجامعة. 
+:::
+
+#. ::: {}
+The engineer who met the scientist by chance is working on a new invention.
+:::
+::: {lang=ar}
+(العلماء)
+المهندس الذي استقبل العالِم بالصدفةِ يعمل على ابتكار جديد. 
+:::
+
+#. ::: {}
+The cook who scolded the waiter forcefully works in an expensive restaurant during the summer.
+:::
+::: {lang=ar}
+(النوادل)
+الطباخ الذي وبّخ النادل بشدةٍ يشتغل في مطعم غالٍ خلال الصيف. 
+:::
+
+#. ::: {}
+The analyst who advised the minister intelligently discusses the Palestinian issue in depth.
+:::
+::: {lang=ar}
+(الوزراء)
+المحلل الذي نصح الوزير بذكاءٍ يتناول القضية الفلسطينية بعمق. 
+:::
+
+#. ::: {}
+The child who saw the prince before visits the royal family each week.
+:::
+::: {lang=ar}
+(الأمراء)
+الطفل الذي رأى الأمير سلفاً يزور العائلة الملكية كل أسبوع. 
+:::
+
+#. ::: {}
+The teacher who taught the child dedicatedly attended the graduation party of the students.
+:::
+::: {lang=ar}
+(الأطفال)
+المعلم الذي علّم الطفل بتفانٍ حضر حفل تخرج الطلاب. 
+:::
+
+#. ::: {}
+The criminal who attacked the boy viciously breaks through the checkpoint every night.
+:::
+::: {lang=ar}
+(الأولاد)
+المجرم الذي هاجم الولد بشراسةٍ يخترق نقطة التفتيش كل ليلة. 
+
+#. ::: {}
+The consultant who warned the president yesterday found a solution for the financial problem.
+:::
+::: {lang=ar}
+(الرؤساء)
+المستشار الذي حذّر الرئيس بالأمسِ وجد الحل للمشكلة المالية. 
+:::
+
+#. ::: {}
+The driver who accompanied the ambassador regularly works seven days a week.
+:::
+::: {lang=ar}
+(السفراء)
+السائق الذي رافق السفير بانتظامٍ يعمل سبعة أيام في الأسبوع. 
+:::
+
+#. ::: {}
+The jailor who tortured the prisoner constantly cleans the cells nightly.
+:::
+::: {lang=ar}
+(السجناء)
+السجّان الذي عذّب السجين باستمرارٍ ينظف الزنازين كل ليلة. 
+:::
+
+#. ::: {}
+The broadcaster who talked to the activist yesterday trained in a famous company.
+:::
+::: {lang=ar}
+(النشطاء)
+المذيع الذي كلم الناشط بالأمس تدرب في شركة مشهورة. 
+:::
+
+#. ::: {}
+The employee who helped the colleague humbly gained the confidence of all the colleagues at work.
+:::
+::: {lang=ar}
+(الزملاء)
+الموظف الذي ساعد الزميل بتواضع استطاع كسب ثقة باقي الزملاء في العمل. 
+:::
+
+#. ::: {}
+The singer who challenged the poet arrogantly has lost for not showing up on time.
+:::
+::: {lang=ar}
+(الشعراء)
+المنشد الذي تحدى الشاعر بغرور خسر لعدم حضوره في الوقت المحدد. 
+:::
+
+#. ::: {}
+The man who consulted the forgiver yesterday wants retribution of sin/guilt.
+:::
+::: {lang=ar}
+(الشفعاء)
+الرجل الذي استشار الشفيع البارحة يريد التكفير عن الذنب. 
+:::
+
+#. ::: {}
+The old man who has mischievously insulted the scholar strives to create problems.
+:::
+::: {lang=ar}
+(الفقهاء)
+العجوز الذي أهان الفقيه بخبث يسعى الى افتعال المشاكل. 
+:::
+
+#. ::: {}
+The beginner who questioned the expert daily has acquired good experience.
+:::
+::: {lang=ar}
+(الخُبراء)
+المبتدئ الذي سأل الخبير يومياً اكتسب خبرة جيدة. 
+:::
+
+#. ::: {}
+The man who hosted the friend with pleasure slept in the basement of the house.
+:::
+::: {lang=ar}
+(الأصدقاء)
+الرجل الذي استضاف الصديق بسرور نام في الطابق السفلي من المنزل. 
+:::
+
+#. ::: {}
+The patient who consulted the doctor yesterday returned home satisfied.
+:::
+::: {lang=ar}
+(الأطباء)
+المريض الذي استشار الطبيب بالأمس عاد الى المنزل مطمئنا. 
+:::
+
+#. ::: {}
+The teacher who met the writer happily likes reading about literature.
+:::
+::: {lang=ar}
+(الأدباء)
+المعلم الذي استقبل الأديب بسعادةٍ يحب القراءة عن الأدب. 
+:::
+
+#. ::: {}
+The representative who talked to the Khalif yesterday works hard to get a promotion.
+:::
+::: {lang=ar}
+(الخلفاء)
+النائب الذي كلم الخليفة بالأمس يجتهد في العمل للحصول على ترقية. 
+:::
+
+#. ::: {}
+The president who hurriedly called the ally tries to reign the situation.
+:::
+::: {lang=ar}
+(الحلفاء)
+الرئيس الذي استدعى الحليف باستعجال يحاول التحكم بزمام الأمور. 
+:::
+
+#. ::: {}
+The manager who phoned the partner in the morning plans to expand the branches of the company.
+:::
+::: {lang=ar}
+(الشركاء)
+المدير الذي هاتف الشريك بالصباح يخطط لتوسيع فروع الشركة. 
+:::
+
+#. ::: {}
+The chef who invited the guest in the evening masters preparing various delicious dishes.
+:::
+::: {lang=ar}
+(النزلاء)
+الطاهي الذي دعا النزيل بالمساء يتقن إعداد أصناف لذيذة من الطعام. 
+:::
+
+
+
+\newpage{}
+# Complete Materials - Experiment 4
+
+#. ::: {}
+The nurse who treated the patient (fem.) carefully studies at the university hospital.
+:::
+::: {lang=ar}
+الممرضة التي عالجت المريضة بعنايةٍ تدرس في مستشفى الجامعة.
+:::
+
+#. ::: {}
+The queen who looked after the princess recently appears in public every week.
+:::
+::: {lang=ar}
+الملكة التي اهتمت بالأميرة حديثاً تظهر في العلن كل أسبوع.
+:::
+
+#. ::: {}
+The seller (fem.) who thanked the customer (fem.) enthusiastically was happy with the large profit.
+:::
+::: {lang=ar}
+البائعة التي شكرت الزبونة بحماسٍ فرحت بالفائدة الكبيرة.
+:::
+
+#. ::: {}
+The novelist (fem.) who mentioned the maid of honor accurately sells many books to the public.
+:::
+::: {lang=ar}
+الكاتبة التي ذكرت الوصيفة بدقةٍ تبيع كتبا كثيرة للجمهور.
+:::
+
+#. ::: {}
+The coach (fem.) who was very interested in the player (fem.) worked at the National Fencing Academy.
+:::
+::: {lang=ar}
+المدربة التي اهتمت باللاعبة جداً اشتغلت في الأكاديمية الوطنية للمبارزة.
+:::
+
+#. ::: {}
+The midwife who cared for the girl repeatedly volunteers at the university hospital.
+:::
+::: {lang=ar}
+القابلة التي اعتنت بالفتاة تكراراً تتطوع في مستشفى الجامعة.
+:::
+
+#. ::: {}
+The soldier (fem.) who met the policewoman yesterday loved the atmosphere at the air base.
+:::
+::: {lang=ar}
+الجندية التي قابلت الشرطية بالأمسِ أحبّت العمل في القاعدة الجوية .
+:::
+
+#. ::: {}
+The singer (fem.) who met the dancer (fem.) previously sings with the city orchestra.
+:::
+::: {lang=ar}
+المطربة التي استقبلت الراقصة سابقاً تغني مع أوركسترا المدينة.
+:::
+
+#. ::: {}
+The nanny who cared for the schoolgirl affectionately traveled to a new country.
+:::
+::: {lang=ar}
+المربية التي ربّت الطالبة بحنانٍ سافرت إلى بلدٍ جديد.
+:::
+
+#. ::: {}
+The producer (fem.) who enthusiastically chose the actress produces a film every month.
+:::
+::: {lang=ar}
+المخرجة التي اختارت الممثلة بشغفٍ تنتج فيلما كل شهر.
+:::
+
+#. ::: {}
+The photographer (fem.) who photographed the witch artistically published the photos in a new book.
+:::
+::: {lang=ar}
+المصورة التي صورت الساحرة بتفننٍ نشرت الصور في كتاب جديد.
+:::
+
+#. ::: {}
+The maid who helped the nanny earnestly cleans the rooms seven days a week.
+:::
+::: {lang=ar}
+الخادمة التي ساعدت المربية بجدٍّ تنظف الغرف سبعة أيام في الأسبوع.
+:::
+
+#. ::: {}
+The announcer (fem.) who invited the historian (fem.) nicely presented a program on TV.
+:::
+::: {lang=ar}
+المذيعة التي دعت المؤرّخة بلطفٍ قدمت برنامجاً في التلفاز.
+:::
+
+#. ::: {}
+The model (fem.) who met the accountant (fem.) repeatedly owns a lot of expensive clothes.
+:::
+::: {lang=ar}
+العارضة التي التقت بالمحاسِبة تكراراً تملك كثيرا من الملابس الغالية.
+:::
+
+#. ::: {}
+The assistant (fem.) who served the pharmacist (fem.) loyally collected all of the old reports.
+:::
+::: {lang=ar}
+المساعِدة التي خدمت الصيدلانيّة بإخلاصٍ جمعت كل التقارير القديمة.
+:::
+
+#. ::: {}
+The journalist (fem.) who interviewed the winner (fem.) by chance writes in many newspapers.
+:::
+::: {lang=ar}
+الصحفية التي قابلت الفائزة صدفةٍ تكتب في صحف كثيرة.
+:::
+
+#. ::: {}
+The bedouin (fem.) who visited the farmer (fem.) at night goes to the middle of the desert.
+:::
+::: {lang=ar}
+البدوية التي زارت المزارعة ليلاً تذهب إلى وسط الصحراء.
+:::
+
+#. ::: {}
+The doctor (fem.) who treated the girl recently discovered a cure for the terrible disease.
+:::
+::: {lang=ar}
+الطبيبة التي عالجت الطفلة مؤخراً اكتشفت شفاء للمرض الرهيب.
+:::
+
+#. ::: {}
+The artist (fem.) who corresponded with the publisher (fem.) eagerly desired a new contract.
+:::
+::: {lang=ar}
+الفنانة التي راسلت الناشرة بشغفٍ رغبت في عَقد جديد.
+:::
+
+#. ::: {}
+The student (fem.) who admired the poet (fem.) greatly read many poems last year.
+:::
+::: {lang=ar}
+التلميذة التي أُعجبت بالشاعرة بشدةٍ قرأت قصائد كثيرة العام الماضي.
+:::
+
+#. ::: {}
+The director (fem.) who contacted the author (fem.) during the day supervises many large projects.
+:::
+::: {lang=ar}
+المديرة التي اتصلت بالمؤلفة نهاراً تشرف على كثيرٍ من المشاريع الكبيرة.
+:::
+
+#. ::: {}
+The dean (fem.) who summoned the professor (fem.) angrily observed a problem in the university departments.
+:::
+::: {lang=ar}
+العميدة التي استدعت الأستاذة بغضبٍ لاحظت خللاً في أقسام الجامعة.
+:::
+
+#. ::: {}
+The musician (fem.) who accompanied the singer (fem.) professionally played with the national music group.
+:::
+::: {lang=ar}
+الموسيقيّة التي رافقت المغنية بمهنيّةٍ عزفت مع الفرقة الوطنية للموسيقى.
+:::
+
+#. ::: {}
+The ambassador (fem.) who hosted the delegate (fem.) yearly spoke at the United Nations.
+:::
+::: {lang=ar}
+السفيرة التي استضافت المندوبة سنوياً تحدثت في الأمم المتحدة.
+:::
+
+#. ::: {}
+The grandmother who met the neighbor (fem.) suddenly talked about the neighborhood issues.
+:::
+::: {lang=ar}
+الجدّة التي صادفت الجارة فجأةً تحاورت عن أمور الحي.
+:::
+
+#. ::: {}
+The student (fem.) who met the manager (fem.) yesterday got high grades in the remaining subjects.
+:::
+::: {lang=ar}
+الطالبة التي قابلت المديرة البارحة نالت درجات عالية في المواد المتبقية.
+:::
+
+#. ::: {}
+The accountant (fem.) who talked to the employee (fem.) harshly suffered from social problems.
+:::
+::: {lang=ar}
+المحاسبة التي حادثت الموظفة بصرامة عانت من مشاكل اجتماعية.
+:::
+
+#. ::: {}
+The study abroad student (fem.) who thanked the official (fem.) a lot studied at one of the best international universities.
+:::
+::: {lang=ar}
+المبتعثة التي شكرت المسؤولة بكثرة درست باحدى أرقى الجامعات الدولية.
+:::
+
+#. ::: {}
+The graduate (fem.) who talked to the lecturer (fem.) happily works for extra hours at the library.
+:::
+::: {lang=ar}
+الخريجة التي كلمت المحاضِرة بسعادة تعمل ساعات اضافية في المكتبة.
+:::
+
+#. ::: {}
+The painter (fem.) who excitedly interviewed the producer (fem.) painted wonderful paintings
+:::
+::: {lang=ar}
+الرسامة التي حاورت المخرجة بإثارة رسمت لوحات فنية رائعة.
+:::
+
+#. ::: {}
+The chef (fem.) who lived next to the trader (fem.) for a long time practices a cooking career skillfully.
+:::
+::: {lang=ar}
+الطاهية التي جاورت التاجرة مطولاً تمارس مهنة الطبخ بمهارة.
+:::
+
+#. ::: {}
+The visitor (fem.) who talked to the guide (fem.) in the morning gave a lecture about how to manage time.
+:::
+::: {lang=ar}
+الزائرة التي حدثت المرشدة صباحاً القت محاضرة عن كيفية تنظيم الوقت.
+:::
+
+#. ::: {}
+The teacher (fem.) who visited the doctor (fem.) yesterday masters speaking in ِArabic and English.
+:::
+::: {lang=ar}
+المعلمة التي زارت الطبيبة بالأمس تُجيد التحدث باللغة العربية و الإنجليزية.
+:::
+
+#. ::: {}
+The lawyer (fem.) who accused the guilty woman angrily is trying to find the way to the truth.
+:::
+::: {lang=ar}
+المحامية التي اتهمت المذنبة بغضبٍ تحاول الوصول إلى الحقيقة.
+:::
+
+#. ::: {}
+The engineer (fem.) who met the colleague (fem.) daily aspires to get a job at a prominent company.
+:::
+::: {lang=ar}
+المهندسة التي قابلت الزميلة يومياً تسعى للحصول على وظيفة في شركة مرموقة.
+:::
+
+#. ::: {}
+The farmer (fem.) who blamed the young lady yesterday loves working at the farm near the park.
+:::
+::: {lang=ar}
+المزارعة التي لامت الشابة بالأمسِ تحب العمل في المزرعة المجاورة للحديقة.
+:::
+
+#. ::: {}
+The beginner (fem.) who helped the boss (fem.) in the morning was hired for the military company.
+:::
+::: {lang=ar}
+المبتدئة التي ساعدت الرئيسة صباحاً توظفت في الشركة العسكرية.
+:::
+
+#. ::: {}
+The actress who met the announcer (fem.) in the past resigned from the acting career recently.
+:::
+::: {lang=ar}
+الممثلة التي قابلت المذيعة بالماضي استقالت من مهنة التمثيل مؤخراً.
+:::
+
+#. ::: {}
+The guard (fem.) who talked to the pupil (fem.) in the morning goes home late every day.
+:::
+::: {lang=ar}
+الحارسة التي كلمت التلميذة صباحاً تذهب إلى المنزل في ساعة متاخرة كل يوم.
+:::
+
+#. ::: {}
+The worker (fem.) who gently scolded the maid cares about helping the needy.
+:::
+::: {lang=ar}
+العاملة التي وبخت الخادمة برفق تهتم بمساعدة المحتاجين.
+:::
+
+#. ::: {}
+The analyst (fem.) who patiently waited for the reporter (fem.) is trying to educate people about the importance of a clean environment.
+:::
+::: {lang=ar}
+المحللة التي انتظرت المراسلة بصبر تسعى لتوعية الشعب على أهمية نظافة البيئة.
+:::
+
+#. ::: {}
+The reporter (fem.) who spoke to the plaintiff (fem.) adeptly interviews the president at international conferences.
+:::
+::: {lang=ar}
+المراسلة التي سألت المدعية بنباهة تقابل رئيس الدولة في المؤتمرات العالمية.
+:::
+
+#. ::: {}
+The magician (fem.) who talked to the lady quickly worked at the theater near the village.
+:::
+::: {lang=ar}
+الساحرة التي كلمت السيدة بسرعة عملت في المسرح المجاور للقرية.
+:::
+
+#. ::: {}
+The employee (fem.) who accompanied the visitor (fem.) in the morning stays at work until late.
+:::
+::: {lang=ar}
+الموظفة التي رافقت الزائرة بالصباح تبقى حتى ساعة متاخرة في العمل.
+:::
+
+#. ::: {}
+The novelist (fem.) who pleasantly shook hands with the designer (fem.) writes international and local novels about literature.
+:::
+::: {lang=ar}
+الروائية التي صافحت المصممة بسرور تكتب روايات عالمية و محلية في الادب.
+:::
+
+#. ::: {}
+The researcher (fem.) who calmly called the detective (fem.) provides money for charity society
+:::
+::: {lang=ar}
+الباحثة التي هاتفت المحققة بهدوء توفر المال للجمعيات الخيرية.
+:::
+
+#. ::: {}
+The coordinator (fem.) who helped the guard (fem.) devotedly was in the school courtyard.
+:::
+::: {lang=ar}
+المنسقة التي عاونت الحارسة بتفان تواجدت في ساحة المدرسة.
+:::
+
+#. ::: {}
+The candidate (fem.) who pleasantly thanked the participant (fem.) took part in the electoral campaign.
+:::
+::: {lang=ar}
+المرشحة التي شكرت المشتركة بسرور شاركت في الحملة الانتخابية.
+:::
+
+#. ::: {}
+The judge (fem.) who decisively questioned the thief (fem.) ruled fairly among people.
+:::
+::: {lang=ar}
+القاضية التي سألت السارقة بحزم حكمت بالعدل بين الناس.
+:::
+
+#. ::: {}
+The immigrant (fem.) who answered the inspector (fem.) anxiously faced difficulties at the check point.
+:::
+::: {lang=ar}
+المهاجرة التي أجابت المفتشة بقلق واجهت صعوبات عند نقطة التفتيش.
+:::
+
+#. ::: {}
+The young girl who helped the grandmother at night works at bakery for sweets.
+:::
+::: {lang=ar}
+الفتاة التي ساعدت الجدة بالليل تعمل في مخبز الحلويات.
+:::
+
+#. ::: {}
+The tourist (fem.) who met the driver (fem.) on the road loves traveling to different countries.
+:::
+::: {lang=ar}
+السائحة التي صادفت السائقة بالطريق تحب السفر إلى بلدان مختلفة.
+:::
+
+#. ::: {}
+The princess who intelligently answered the journalist (fem.) owns many huge palaces.
+:::
+::: {lang=ar}
+الأميرة التي أجابت الصحافية بذكاء تمتلك عدة قصور كبيرة.
+:::
+
+#. ::: {}
+The client (fem.) who consulted the lawyer (fem.) nervously practiced painting for many years.
+:::
+::: {lang=ar}
+الموكلة التي استشارت المحامية بتوتر مارست مهنة الرسم لعدة سنوات.
+:::
+
+\newpage{}
+# Complete Materials - Experiment 5
+
+#. ::: {}
+The nurse who treated the patient (fem.) carefully studies at the university hospital.
+:::
+::: {lang=ar}
+الممرضة التي عالجت المريضة بعنايةٍ تدرس في مستشفى الجامعة.
+:::
+
+#. ::: {}
+The queen who looked after the princess recently appears in public every week.
+:::
+::: {lang=ar}
+الملكة التي اهتمت بالأميرة حديثاً تظهر في العلن كل أسبوع.
+:::
+
+#. ::: {}
+The seller (fem.) who thanked the customer (fem.) enthusiastically was happy with the large profit.
+:::
+::: {lang=ar}
+البائعة التي شكرت الزبونة بحماسٍ فرحت بالفائدة الكبيرة.
+:::
+
+#. ::: {}
+The novelist (fem.) who mentioned the maid of honor accurately sells many books to the public.
+:::
+::: {lang=ar}
+الكاتبة التي ذكرت الوصيفة بدقةٍ تبيع كتبا كثيرة للجمهور.
+:::
+
+#. ::: {}
+The coach (fem.) who was very interested in the player (fem.) worked at the National Fencing Academy.
+:::
+::: {lang=ar}
+المدربة التي اهتمت باللاعبة جداً اشتغلت في الأكاديمية الوطنية للمبارزة.
+:::
+
+#. ::: {}
+The obstetrician (fem.) who cared for the child (fem.) repeatedly volunteers at the university hospital.
+:::
+::: {lang=ar}
+القابلة التي اعتنت بالطفلة تكراراً تتطوع في مستشفى الجامعة.
+:::
+
+#. ::: {}
+The soldier (fem.) who met the policewoman yesterday loved the atmosphere at the air base.
+:::
+::: {lang=ar}
+الجندية التي قابلت الشرطية بالأمسِ أحبّت العمل في القاعدة الجوية.
+:::
+
+#. ::: {}
+The singer (fem.) who met the dancer (fem.) previously sings with the city orchestra.
+:::
+::: {lang=ar}
+المطربة التي استقبلت الراقصة سابقاً تغني مع أوركسترا المدينة.
+:::
+
+#. ::: {}
+The prompter (fem.) who cared for the student (fem.) affectionately traveled to a new country.
+:::
+::: {lang=ar}
+الملقّنة التي ربّت الطالبة بحنانٍ سافرت إلى بلدٍ جديد.
+:::
+
+#. ::: {}
+The producer (fem.) who enthusiastically chose the actress produces a film every month.
+:::
+::: {lang=ar}
+المخرجة التي اختارت الممثلة بشغفٍ تنتج فيلما كل شهر.
+:::
+
+#. ::: {}
+The photographer (fem.) who photographed the magician (fem.) artistically published the photos in a new book.
+:::
+::: {lang=ar}
+المصورة التي صورت الساحرة بتفننٍ نشرت الصور في كتاب جديد.
+:::
+
+#. ::: {}
+The maid who helped the sponsor (fem.) earnestly cleans the rooms seven days a week.
+:::
+::: {lang=ar}
+الخادمة التي ساعدت الكفيلة بجدٍّ تنظف الغرف سبعة أيام في الأسبوع.
+:::
+
+#. ::: {}
+The announcer (fem.) who invited the historian (fem.) nicely presented a program on TV.
+:::
+::: {lang=ar}
+المذيعة التي دعت المؤرّخة بلطفٍ قدمت برنامجاً في التلفاز.
+:::
+
+#. ::: {}
+The translator (fem.) who met the accountant (fem.) repeatedly owns a lot of expensive clothes.
+:::
+::: {lang=ar}
+المترجمة التي التقت بالمحاسِبة تكراراً تملك كثيرا من الملابس الغالية.
+:::
+
+#. ::: {}
+The assistant (fem.) who served the pharmacist (fem.) loyally collected all of the old reports.
+:::
+::: {lang=ar}
+المساعِدة التي خدمت الصيدلانيّة بإخلاصٍ جمعت كل التقارير القديمة.
+:::
+
+#. ::: {}
+The journalist (fem.) who interviewed the winner (fem.) by chance writes in many newspapers.
+:::
+::: {lang=ar}
+الصحفية التي قابلت الفائزة صدفةٍ تكتب في صحف كثيرة.
+:::
+
+#. ::: {}
+The bedouin (fem.) who visited the farmer (fem.) at night goes to the middle of the desert.
+:::
+::: {lang=ar}
+البدوية التي زارت المزارعة ليلاً تذهب إلى وسط الصحراء.
+:::
+
+#. ::: {}
+The doctor (fem.) who treated the girl recently discovered a cure for the terrible disease.
+:::
+::: {lang=ar}
+الطبيبة التي عالجت الصبية مؤخراً اكتشفت شفاء للمرض الرهيب.
+:::
+
+#. ::: {}
+The artist (fem.) who corresponded with the publisher (fem.) eagerly desired a new contract.
+:::
+::: {lang=ar}
+الفنانة التي راسلت الناشرة بشغفٍ رغبت في عَقد جديد.
+:::
+
+#. ::: {}
+The student (fem.) who admired the poet (fem.) greatly read many poems last year.
+:::
+::: {lang=ar}
+التلميذة التي أُعجبت بالشاعرة بشدةٍ قرأت قصائد كثيرة العام الماضي.
+:::
+
+#. ::: {}
+The director (fem.) who contacted the author (fem.) during the day supervises many large projects.
+:::
+::: {lang=ar}
+المديرة التي اتصلت بالمؤلفة نهاراً تشرف على كثيرٍ من المشاريع الكبيرة.
+:::
+
+#. ::: {}
+The dean (fem.) who summoned the professor (fem.) angrily observed a problem in the university departments.
+:::
+::: {lang=ar}
+العميدة التي استدعت الأستاذة بغضبٍ لاحظت خللاً في أقسام الجامعة.
+:::
+
+#. ::: {}
+The musician (fem.) who accompanied the singer (fem.) professionally played with the national music group.
+:::
+::: {lang=ar}
+الموسيقيّة التي رافقت المغنية بمهنيّةٍ عزفت مع الفرقة الوطنية للموسيقى.
+:::
+
+#. ::: {}
+The ambassador (fem.) who hosted the delegate (fem.) yearly spoke at the United Nations.
+:::
+::: {lang=ar}
+السفيرة التي استضافت المندوبة سنوياً تحدثت في الأمم المتحدة.
+:::
+
+#. ::: {}
+The grandmother who met the neighbor (fem.) suddenly talked about the neighborhood issues.
+:::
+::: {lang=ar}
+الجدّة التي صادفت الجارة فجأةً تحاورت عن أمور الحي.
+:::
+
+#. ::: {}
+The student (fem.) who met the manager (fem.) yesterday got high grades in the remaining subjects.
+:::
+::: {lang=ar}
+الطالبة التي قابلت المديرة البارحة نالت درجات عالية في المواد المتبقية.
+:::
+
+#. ::: {}
+The accountant (fem.) who talked to the employee (fem.) harshly suffered from social problems.
+:::
+::: {lang=ar}
+المحاسبة التي حادثت الموظفة بصرامة عانت من مشاكل اجتماعية.
+:::
+
+#. ::: {}
+The  volunteer (fem.) who thanked the official (fem.) a lot studied at one of the best international universities.
+:::
+::: {lang=ar}
+المتطوعة التي شكرت المسؤولة بكثرة درست باحدى أرقى الجامعات الدولية.
+:::
+
+#. ::: {}
+The graduate (fem.) who talked to the lecturer (fem.) happily works for extra hours at the library.
+:::
+::: {lang=ar}
+الخريجة التي كلمت المحاضِرة بسعادة تعمل ساعات اضافية في المكتبة.
+:::
+
+#. ::: {}
+The painter (fem.) who excitedly interviewed the producer (fem.) painted wonderful paintings
+:::
+::: {lang=ar}
+الرسامة التي حاورت المخرجة بإثارة رسمت لوحات فنية رائعة.
+:::
+
+#. ::: {}
+The chef (fem.) who lived next to the trader (fem.) for a long time practices a cooking career skillfully.
+:::
+::: {lang=ar}
+الطاهية التي جاورت التاجرة مطولاً تمارس مهنة الطبخ بمهارة.
+:::
+
+#. ::: {}
+The visitor (fem.) who talked to the guide (fem.) in the morning gave a lecture about how to manage time.
+:::
+::: {lang=ar}
+الزائرة التي حدثت المرشدة صباحاً القت محاضرة عن كيفية تنظيم الوقت.
+:::
+
+#. ::: {}
+The teacher (fem.) who visited the doctor (fem.) yesterday masters speaking in ِArabic and English.
+:::
+::: {lang=ar}
+المعلمة التي زارت الطبيبة بالأمس تُجيد التحدث باللغة العربية و الإنجليزية.
+:::
+
+#. ::: {}
+The lawyer (fem.) who accused the guilty woman angrily is trying to find the way to the truth.
+:::
+::: {lang=ar}
+المحامية التي اتهمت المذنبة بغضبٍ تحاول الوصول إلى الحقيقة.
+:::
+
+#. ::: {}
+The engineer (fem.) who met the colleague (fem.) daily aspires to get a job at a prominent company.
+:::
+::: {lang=ar}
+المهندسة التي قابلت الزميلة يومياً تسعى للحصول على وظيفة في شركة مرموقة.
+:::
+
+#. ::: {}
+The farmer (fem.) who blamed the young person (fem.) yesterday loves working at the farm near the park.
+:::
+::: {lang=ar}
+المزارعة التي لامت الشابة بالأمسِ تحبّ العمل في المزرعة المجاورة للحديقة.
+:::
+
+#. ::: {}
+The beginner (fem.) who helped the boss (fem.) in the morning was hired for the military company.
+:::
+::: {lang=ar}
+المبتدئة التي ساعدت الرئيسة صباحاً توظفت في الشركة العسكرية.
+:::
+
+#. ::: {}
+The actress who met the announcer (fem.) in the past resigned from the acting career recently.
+:::
+::: {lang=ar}
+الممثلة التي قابلت المذيعة بالماضي استقالت من مهنة التمثيل مؤخراً.
+:::
+
+#. ::: {}
+The guard (fem.) who talked to the pupil (fem.) in the morning goes home late every day.
+:::
+::: {lang=ar}
+الحارسة التي كلمت التلميذة صباحاً تذهب إلى المنزل في ساعة متاخرة كل يوم.
+:::
+
+#. ::: {}
+The worker (fem.) who gently scolded the maid cares about helping the needy.
+:::
+::: {lang=ar}
+العاملة التي وبخت الخادمة برفق تهتم بمساعدة المحتاجين.
+:::
+
+#. ::: {}
+The analyst (fem.) who patiently waited for the reporter (fem.) is trying to educate people about the importance of a clean environment.
+:::
+::: {lang=ar}
+المحللة التي انتظرت المراسلة بصبر تسعى لتوعية الشعب على أهمية نظافة البيئة.
+:::
+
+#. ::: {}
+The reporter (fem.) who spoke to the plaintiff (fem.) adeptly interviews the president at international conferences.
+:::
+::: {lang=ar}
+المراسلة التي سألت المدعية بنباهة تقابل رئيس الدولة في المؤتمرات العالمية.
+:::
+
+#. ::: {}
+The magician (fem.) who talked to the lady quickly worked at the theater near the village.
+:::
+::: {lang=ar}
+الساحرة التي كلمت السيدة بسرعة عملت في المسرح المجاور للقرية.
+:::
+
+#. ::: {}
+The employee (fem.) who accompanied the visitor (fem.) in the morning stays at work until late.
+:::
+::: {lang=ar}
+الموظفة التي رافقت الزائرة بالصباح تبقى حتى ساعة متاخرة في العمل.
+:::
+
+#. ::: {}
+The novelist (fem.) who pleasantly shook hands with the designer (fem.) writes international and local novels about literature. 
+:::
+::: {lang=ar}
+الروائية التي صافحت المصممة بسرور تكتب روايات عالمية و محلية في الادب.
+:::
+
+#. ::: {}
+The researcher (fem.) who calmly called the detective (fem.) provides money for charity society
+:::
+::: {lang=ar}
+الباحثة التي هاتفت المحققة بهدوء توفر المال للجمعيات الخيرية.
+:::
+
+#. ::: {}
+The coordinator (fem.) who helped the guard (fem.) devotedly was in the school courtyard.
+:::
+::: {lang=ar}
+المنسقة التي عاونت الحارسة بتفانٍ تواجدت في ساحة المدرسة.
+:::
+
+#. ::: {}
+The candidate (fem.) who pleasantly thanked the participant (fem.) took part in the electoral campaign.
+:::
+::: {lang=ar}
+المرشحة التي شكرت المشتركة بسرور شاركت في الحملة الانتخابية.
+:::
+
+#. ::: {}
+The judge (fem.) who decisively questioned the thief (fem.) ruled fairly among people.
+:::
+::: {lang=ar}
+القاضية التي سألت السارقة بحزم حكمت بالعدل بين الناس.
+:::
+
+#. ::: {}
+The immigrant (fem.) who answered the inspector (fem.) anxiously faced difficulties at the check point.
+:::
+::: {lang=ar}
+المهاجرة التي أجابت المفتشة بقلق واجهت صعوبات عند نقطة التفتيش.
+:::
+
+#. ::: {}
+The pharmacist (fem.) who helped the grandmother at night works at bakery for sweets.
+:::
+::: {lang=ar}
+الصيدلانيّة التي ساعدت الجّدة بالليل تعمل في مخبز الحلويات.
+:::
+
+#. ::: {}
+The tourist (fem.) who met the driver (fem.) on the road loves traveling to different countries.
+:::
+::: {lang=ar}
+السائحة التي صادفت السائقة بالطريق تحبّ السفر إلى بلدان مختلفة.
+:::
+
+#. ::: {}
+The princess who intelligently answered the journalist (fem.) owns many huge palaces. 
+:::
+::: {lang=ar}
+الأميرة التي أجابت الصحافية بذكاء تمتلك عدة قصور كبيرة.
+:::
+
+#. ::: {}
+The client (fem.) who consulted the lawyer (fem.) nervously practiced painting for a few years. 
+:::
+::: {lang=ar}
+الموكلة التي استشارت المحامية بتوتر مارست مهنة الرسم لعدة سنوات.
+:::
+
+
