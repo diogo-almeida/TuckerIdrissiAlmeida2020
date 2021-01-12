@@ -38,6 +38,12 @@ Alternatively, you may also click the badge [![Launch Rstudio Binder](http://myb
 
 Also, keep in mind that this is under testing and may fail. I managed to get it to work at the time of this writing, but YMMV.
 
+## Supplementary Materials
+
+In the folder ```supplementary_materials```, you will find the full list of sentences used in the experiments reported in the paper as an Rmarkdown document. You can peruse the document as is as RMarkdown is quite human-readable. Alternatively, you can generate a pdf by opening the Rmarkdown document in RStudio (in your own local installation or using the the RStudio session in Binder as described above), and pressing "Knit".
+
+In order to generate the pdf, however, you will need to install the font [Markazi Text](https://fonts.google.com/specimen/Markazi+Text?query=markazi), which is available for free on Google Fonts.
+
 ## Notes
 
 1. It may be possible to run the scripts without RStudio. I have no idea on how to do it, though, so I cannot offer any support for it.
