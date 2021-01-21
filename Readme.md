@@ -5,11 +5,11 @@
 <!-- badges: end -->
 
 
-# Research compendium for Tucker, Idrissi & Almeida (2020).
+# Research compendium for Tucker, Idrissi & Almeida (2021).
 
 A compendium of code and data accompanying the publication:
 
-#### Tucker [![](https://orcid.org/sites/default/files/images/orcid_16x16.png)](http://orcid.org/0000-0002-1514-4598), Idrissi [![](https://orcid.org/sites/default/files/images/orcid_16x16.png)](http://orcid.org/0000-0002-2226-6016), & Almeida [![](https://orcid.org/sites/default/files/images/orcid_16x16.png)](http://orcid.org/0000-0003-4674-8092). (2020). Attraction effects for verbal gender and number are similar but not identical: self-paced reading evidence from Modern Standard Arabic.  Published in *Frontiers in Psychology, Language Sciences*, <https://doi.org/10.3389/fpsyg.2020.586464>
+#### Tucker [![](https://orcid.org/sites/default/files/images/orcid_16x16.png)](http://orcid.org/0000-0002-1514-4598), Idrissi [![](https://orcid.org/sites/default/files/images/orcid_16x16.png)](http://orcid.org/0000-0002-2226-6016), & Almeida [![](https://orcid.org/sites/default/files/images/orcid_16x16.png)](http://orcid.org/0000-0003-4674-8092). (2021). Attraction effects for verbal gender and number are similar but not identical: self-paced reading evidence from Modern Standard Arabic.  Published in *Frontiers in Psychology, Language Sciences*, <https://doi.org/10.3389/fpsyg.2020.586464>
 
 This compendium should allow for the reproduction of all figures and tables reported in the paper.
 
@@ -26,7 +26,7 @@ If you have R and RStudio installed, it should be as easy as:
 
 2. Click on the "AnalysisScripts.Rproj" (it should open an RStudio session)
 
-2. Open the file "00-ReproduceAnalyses-Tucker_et_al_2020.R"
+2. Open the file "00-ReproduceAnalyses-Tucker_et_al_2021.R"
 
 3. Run the "Source" command from the RStudio menu
 

@@ -1,15 +1,15 @@
 Type: Compendium
-Package: TuckerIdrissiAlmeida2020
+Package: TuckerIdrissiAlmeida2021
 Title: Research compendium including data and analysis code for the research 
-    reported in Tucker, Idrissi & Almeida (2020).
-Version: 0.0.1
+    reported in Tucker, Idrissi & Almeida (2021).
+Version: 0.0.2
 Authors@R: 
     person(given = "Diogo",
            family = "Almeida",
            role = c("aut", "cre"),
            email = "diogo@nyu.edu")
 Description: Reproducibility package for the research
-    reported in Tucker, Idrissi, & Almeida (2020).Attraction effects for
+    reported in Tucker, Idrissi, & Almeida (2021).Attraction effects for
     verbal gender and number are similar but not identical: self-paced
     reading evidence from Modern Standard Arabic. Frontiers in
     Psychology, Language Sciences. doi: 10.3389/fpsyg.2020.586464
