@@ -1,10 +1,10 @@
 ## Attempting to create research compendium with Binder
 
 library(holepunch)
-write_compendium_description(package = "TuckerIdrissiAlmeida2020", 
+write_compendium_description(package = "TuckerIdrissiAlmeida2021", 
                              description = "Reproducibility package for the 
                              research reported in Tucker, Idrissi, & Almeida 
-                             (2020).Attraction effects for verbal gender and 
+                             (2021).Attraction effects for verbal gender and 
                              number are similar but not identical: self-paced 
                              reading evidence from Modern Standard Arabic. 
                              Frontiers in Psychology, Language Sciences. 

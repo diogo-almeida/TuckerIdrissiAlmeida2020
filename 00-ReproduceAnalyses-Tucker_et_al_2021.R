@@ -1,4 +1,4 @@
-## Master script to run all the analysis in Tucker, Idrissi & Almeida (2020) ---
+## Master script to run all the analysis in Tucker, Idrissi & Almeida (2021) ---
 ## Author: Diogo Almeida <diogo@nyu.edu>
 ## Date: 2020-12-28
 ## Description:
@@ -40,4 +40,4 @@ cat("----- Meta-Analysis done! -----\n")
 
 ## Clean up --------------------------------------------------------------------
 rm(list=ls())
-cat("----- Reproduction of figures and tables for Tucker et al. 2020 done! -----\n")
+cat("----- Reproduction of figures and tables for Tucker et al. 2021 done! -----\n")

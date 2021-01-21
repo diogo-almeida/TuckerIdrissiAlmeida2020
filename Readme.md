@@ -34,7 +34,7 @@ The analysis scripts will create a folder for each experiment as well as meta-an
 
 ## Running the scripts in [mybinder.org](https://mybinder.org)
 
-Alternatively, you may also click the badge [![Launch Rstudio Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/diogo-almeida/TuckerIdrissiAlmeida2020/main?urlpath=rstudio) to start an RStudio version on your browser. It may take a while for it to start, though. You can then follow the same instructions as above.
+Alternatively, you may also click the badge [![Launch Rstudio Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/diogo-almeida/TuckerIdrissiAlmeida2021/main?urlpath=rstudio) to start an RStudio version on your browser. It may take a while for it to start, though. You can then follow the same instructions as above.
 
 Also, keep in mind that this is under testing and may fail. I managed to get it to work at the time of this writing, but YMMV.
 
