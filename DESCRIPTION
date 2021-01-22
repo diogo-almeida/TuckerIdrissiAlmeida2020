@@ -1,7 +1,6 @@
 Type: Compendium
 Package: TuckerIdrissiAlmeida2021
-Title: Research compendium including data and analysis code for the research 
-    reported in Tucker, Idrissi & Almeida (2021).
+Title: Research Compendium For Tucker, Idrissi & Almeida (2021).
 Version: 0.0.2
 Authors@R: 
     person(given = "Diogo",
@@ -19,18 +18,20 @@ Depends:
     fs,
     here,
     holepunch,
+    knitr,
     lubridate,
     metafor,
     pander,
     pins,
     ragg,
     readr,
+    rmarkdown,
     sessioninfo,
     stargazer,
     tibble,
     tidyverse,
     viridis
 Remotes: 
-    karthik/holepunch,
+    karthik/holepunch
 Encoding: UTF-8
 LazyData: true
