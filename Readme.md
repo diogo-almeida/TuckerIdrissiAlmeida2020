@@ -15,10 +15,7 @@ This compendium should allow for the reproduction of all figures and tables repo
 
 ## Running the scripts
 
-The scripts were created in:
-
-* R (tested with version 4.0.3)
-* RStudio (tested with version 1.3.1093)
+### On your own computer, with your own R and RStudio installations
 
 If you have R and RStudio installed, it should be as easy as:
 
@@ -26,17 +23,87 @@ If you have R and RStudio installed, it should be as easy as:
 
 2. Click on the "AnalysisScripts.Rproj" (it should open an RStudio session)
 
-2. Open the file "00-ReproduceAnalyses-Tucker_et_al_2021.R"
+3. Open the file "00-ReproduceAnalyses-Tucker_et_al_2021.R"
 
-3. Run the "Source" command from the RStudio menu
+4. Run the "Source" command from the RStudio menu
 
 The analysis scripts will create a folder for each experiment as well as meta-analysis. Within each folder, you will find the original datasets used in the analysis as well as the reproduced figures and tables.
 
-## Running the scripts in [mybinder.org](https://mybinder.org)
+NOTE: Whether the script will run out of the box will depend entirely on whether your own R and RStudio installations are compatible enough with the computational environment used in creating and testing the scripts. The scripts were only tested with:
+
+* R (tested with versions 3.6.3 and 4.0.3)
+* RStudio (tested with version 1.3.1093)
+
+A fuller picture about that original computational environment can be found in the file `tucker2001_original_session_info_for_comparisons.txt`.
+
+
+### Running the scripts online in [mybinder.org](https://mybinder.org)
 
 Alternatively, you may also click the badge [![Launch Rstudio Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/diogo-almeida/TuckerIdrissiAlmeida2021/main?urlpath=rstudio) to start an RStudio version on your browser. It may take a while for it to start, though. You can then follow the same instructions as above.
 
 Also, keep in mind that this is under testing and may fail. I managed to get it to work at the time of this writing, but YMMV.
+
+### Running the scripts on your computer using [Docker](https://www.docker.com)
+
+If you would like to run the scripts on your own computer but do not want to have to worry about potentially having to change your R and/or RStudio installations, you can use [Docker](https://www.docker.com) to replicate a full computational environment used in the creation and testing of the scripts, and so it's guaranteed to run on your computer regardless of what you R or RStudio installations may be.
+
+Requirements:
+
+1. Having Git installed on your computer
+2. Having [Docker](https://www.docker.com) installed on your computer
+3. Having at least 5 Gb of free disk space for building the [Docker](https://www.docker.com) image on your own computer
+
+Steps:
+
+1. On the command line, find a suitable directory and build a docker image of this repository on your local computer. The following command will create a new docker image called `rr-tucker-et-al-2021`:
+
+```
+docker build -t rr-tucker-et-al-2021 https://github.com/diogo-almeida/TuckerIdrissiAlmeida2021.git#main
+```
+
+NOTE: It will take perhaps a few minutes to build the Docker image locally, but it only needs to be run once.
+
+2. Start the container:
+
+```
+docker run --rm -p 8888:8888 rr-tucker-et-al-2021 
+```
+
+3. Copy the URL that is given at the end of the output of the previous command, and paste it onto a web browser. This will open a Jupyter Notebook interface.
+
+4. On the Jupyter Notebook interface, ther will be a button `New` on the top right hand side of the screen, next to the button `Upload`. Click on `New` and choose `RStudio`, which should be the last option on the menu. This will open an interactive RStudio session on your web browser.
+
+5. Open the file "00-ReproduceAnalyses-Tucker_et_al_2021.R"
+
+6. Run the "Source" command from the RStudio menu
+
+#### Stopping and Removing the Docker image
+
+Once you have finished working on the Docker image, you can just stop the image by typing the following command on the command line:
+
+```
+docker stop <container_id>
+```
+
+where ```<container_id>``` can be found by typing the following command:
+
+```
+docker ps -a
+```
+
+If you do not plan on running the image again, or if you just want to save disk space, you can delete the image by issuing the following command:
+
+```
+docker image rm <image_id>
+```
+
+where ```<image_id>``` can be found by typing the following command:
+
+```
+docker image ls
+```
+
+NOTE: Once the docker image is deleted, you will need to build it again before you can use it (i.e., go back to step 1).
 
 ## Supplementary Materials
 
