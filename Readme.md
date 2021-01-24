@@ -79,7 +79,7 @@ docker run --rm -p 8888:8888 rr-tucker-et-al-2021
 
 #### Stopping and Removing the Docker image
 
-Once you have finished working on the Docker image, you can just stop the image by typing the following command on the command line:
+Once you have finished working on the Docker image, you can stop the image by typing the following command on the command line:
 
 ```
 docker stop <container_id>
@@ -90,6 +90,8 @@ where ```<container_id>``` can be found by typing the following command:
 ```
 docker ps -a
 ```
+
+If you want to run the image again, go to step 2 above.
 
 If you do not plan on running the image again, or if you just want to save disk space, you can delete the image by issuing the following command:
 
